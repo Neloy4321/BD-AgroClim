@@ -367,14 +367,6 @@ If you use the code, methodology, figures, or derived datasets from this reposit
 Department of Computer Science and Engineering  
 Daffodil International University, Dhaka, Bangladesh
 
-**Sajib Biswas**  
-Department of Computer Science and Engineering  
-Daffodil International University, Dhaka, Bangladesh
-
-**Sazal Das**  
-Department of Computer Science and Engineering  
-Daffodil International University, Dhaka, Bangladesh
-
 ## Research Project
 
 **BD-AgroClim** is the foundation study of a broader research programme on Bangladesh agro-climatic drought, climate-data reconstruction, and downstream climate-impact analysis. This repository corresponds specifically to **Paper 1**. Subsequent papers use the reconstructed agro-climatic resource as a foundation for downstream analyses.
