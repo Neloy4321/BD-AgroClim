@@ -1,0 +1,5 @@
+source,product,resolution,period,variables,access
+BMD stations,In-situ daily,36 points,2000-2023,"tmax, tmin, prcp",Bangladesh Meteorological Dept (cleaned panel)
+NASA POWER,Reanalysis/satellite blend,0.5 deg (~50 km),2000-2026,"T2M, T2M_MAX, T2M_MIN, PRECTOTCORR, RH2M, WS10M, GWETTOP",NASA POWER API (larc.nasa.gov)
+ERA5-Land,Reanalysis (CHTESSEL),0.1 deg (~9 km),2000-2026,"t2m, d2m, prcp, swvl1/2, ssrd, sp, u10/v10 (derived ws2, ea/es, rh, vpd)",GEE ECMWF/ERA5_LAND/DAILY_AGGR at station coords
+Terrain,DEM + surface water,30 m aggregated to 9 km,static,"land_frac_9km, elev_std_9km, roughness, tpi, dist_water, slope/aspect",Copernicus GLO-30 + SRTM v3 + JRC GSW via GEE

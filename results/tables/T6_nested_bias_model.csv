@@ -1,0 +1,5 @@
+predictors,k,R2,adjR2,AIC
+land_frac_9km,1,0.303,0.283,51.3
+land_frac_9km + elev_std_9km,2,0.428,0.394,46.1
+land_frac_9km + elev_std_9km + slope_mean_9km,3,0.447,0.395,46.9
+land_frac_9km + elev_std_9km + elev_dem + dist_water_km,4,0.43,0.356,50.0

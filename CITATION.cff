@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated research paper and this software repository."
+type: software
+title: "BD-AgroClim"
+version: "1.0.0"
+date-released: 2026-08-11
+
+abstract: >
+  BD-AgroClim is the computational research repository accompanying a
+  study of reanalysis bias, terrain controls, machine-learning bias
+  correction, and daily agro-climatic reconstruction for Bangladesh.
+  The study evaluates NASA POWER and ERA5-Land against 36 Bangladesh
+  Meteorological Department stations, investigates terrain and
+  land-surface controls on reanalysis error, applies statistical and
+  machine-learning correction methods, and evaluates spatial
+  transferability using leave-one-station-out validation.
+
+authors:
+  - family-names: "Supto"
+    given-names: "Neloy Pramanik"
+    affiliation: "Daffodil International University"
+  - family-names: "Biswas"
+    given-names: "Sajib"
+    affiliation: "Daffodil International University"
+  - family-names: "Das"
+    given-names: "Sazal"
+    affiliation: "Daffodil International University"
+
+keywords:
+  - Bangladesh
+  - agro-climatology
+  - climate data
+  - ERA5-Land
+  - NASA POWER
+  - reanalysis
+  - bias correction
+  - machine learning
+  - leave-one-station-out validation
+  - terrain analysis
+  - precipitation
+  - temperature
+  - SHAP
+  - climate reconstruction
+
+license: MIT
+
+repository-code: "https://github.com/YOUR-USERNAME/BD-AgroClim"
+repository: "https://github.com/YOUR-USERNAME/BD-AgroClim"
+url: "https://github.com/YOUR-USERNAME/BD-AgroClim"
+documentation: "https://github.com/YOUR-USERNAME/BD-AgroClim/tree/main/docs"
+
+commit: ""
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Supto"
+      given-names: "Neloy Pramanik"
+    - family-names: "Biswas"
+      given-names: "Sajib"
+    - family-names: "Das"
+      given-names: "Sazal"
+  title: "Land-Fraction and Sub-Grid Relief Controls on Reanalysis Bias and Machine-Learning Reconstruction of Daily Agro-Climatic Data for Bangladesh"
+  year: 2026

@@ -1,0 +1,12 @@
+pandas         → CSV/Parquet data processing
+numpy          → numerical computation
+scipy          → statistical analysis
+statsmodels    → statistical modelling
+scikit-learn   → ML, preprocessing, validation, metrics
+xgboost        → XGBoost model
+lightgbm       → LightGBM model
+shap           → model interpretability
+matplotlib     → figure generation
+seaborn        → statistical visualisation
+pyarrow        → Parquet file read/write
+openpyxl       → Excel-related data handling

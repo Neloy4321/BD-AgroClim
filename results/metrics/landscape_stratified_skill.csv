@@ -1,0 +1,4 @@
+landscape,n,tmax_r,tmax_bias,tmin_r,prcp_r,land_frac,elev_std
+Coastal / island,5,0.899,-2.303,0.957,0.514,0.405,3.558
+Hill-adjacent,6,0.879,-2.158,0.962,0.464,0.885,28.811
+Interior plain,25,0.911,-1.374,0.966,0.397,0.967,3.334
