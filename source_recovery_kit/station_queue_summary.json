@@ -1,0 +1,12 @@
+{
+  "author_stations": 36,
+  "public_current_bamis_snapshot_stations": 53,
+  "matched_current_names_alias_assumption_only": 34,
+  "priority_counts": {
+    "P1_current_difference_over_1km": 6,
+    "P2_historical_date_and_identity_needed": 27,
+    "P0_no_unambiguous_current_site_name_match": 2,
+    "P0_current_difference_over_5km": 1
+  },
+  "status": "2026 station coordinates ONLY; historical station coordinates unverified"
+}

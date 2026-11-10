@@ -1,0 +1,562 @@
+station_a,station_b,original_distance_km,hypothetical_distance_km,change_km,crosses_100km_threshold
+Ambagan (Ctg),Barisal,152.45548,154.42203,1.9665449,False
+Ambagan (Ctg),Bhola,122.38267,124.6765,2.2938304,False
+Ambagan (Ctg),Bogra,370.73397,372.92636,2.1923806,False
+Ambagan (Ctg),Chandpur,147.79432,153.00074,5.2064188,False
+Ambagan (Ctg),Chittagong,10.472573,8.9548906,-1.5176826,False
+Ambagan (Ctg),Chuadanga,336.11479,338.45058,2.3357889,False
+Ambagan (Ctg),Comilla,134.38818,136.33244,1.9442534,False
+Ambagan (Ctg),Cox's Bazar,102.87737,101.42783,-1.4495407,False
+Ambagan (Ctg),Dhaka,212.54804,215.254,2.7059589,False
+Ambagan (Ctg),Dinajpur,483.30358,489.14045,5.8368725,False
+Ambagan (Ctg),Faridpur,241.76467,244.0867,2.3220315,False
+Ambagan (Ctg),Feni,83.612401,85.545465,1.9330644,False
+Ambagan (Ctg),Gazipur,229.92169,232.05377,2.1320725,False
+Ambagan (Ctg),Hatiya,71.363665,73.536728,2.173063,False
+Ambagan (Ctg),Ishurdi,342.18738,344.50691,2.3195298,False
+Ambagan (Ctg),Jashore,283.67272,285.98137,2.3086515,False
+Ambagan (Ctg),Khepupara,166.10296,167.82505,1.7220896,False
+Ambagan (Ctg),Khulna,236.70397,238.94577,2.2417966,False
+Ambagan (Ctg),Madaripur,186.25049,190.38599,4.135502,False
+Ambagan (Ctg),Maijdee Court,90.731023,93.031503,2.30048,False
+Ambagan (Ctg),Mongla,225.44858,227.57205,2.1234666,False
+Ambagan (Ctg),Mymensingh,297.26233,298.72548,1.463144,False
+Ambagan (Ctg),Patuakhali,150.19103,152.23258,2.041543,False
+Ambagan (Ctg),Rajshahi,386.55074,388.86879,2.318043,False
+Ambagan (Ctg),Rangamati,46.182259,44.801786,-1.3804731,False
+Ambagan (Ctg),Rangpur,456.03285,458.11047,2.0776198,False
+Ambagan (Ctg),Saidpur,476.41622,478.5452,2.1289793,False
+Ambagan (Ctg),Satkhira,281.17959,283.38207,2.2024758,False
+Ambagan (Ctg),Sitakunda,31.414187,27.961351,-3.4528364,False
+Ambagan (Ctg),Srimangal,215.80541,216.9842,1.1787808,False
+Ambagan (Ctg),Sylhet,282.58424,283.63709,1.0528541,False
+Ambagan (Ctg),Tangail,283.95507,285.4695,1.5144231,False
+Ambagan (Ctg),Teknaf,173.86612,172.1879,-1.6782178,False
+Barisal,Bhola,30.082628,29.755801,-0.32682688,False
+Barisal,Bogra,254.57322,254.70711,0.13389499,False
+Barisal,Chandpur,63.346259,66.963027,3.6167683,False
+Barisal,Chittagong,158.54106,158.22191,-0.31915365,False
+Barisal,Chuadanga,187.0901,187.37514,0.28504247,False
+Barisal,Comilla,112.41771,112.16816,-0.24955318,False
+Barisal,Cox's Bazar,219.49577,219.24006,-0.25571807,False
+Barisal,Dhaka,113.06476,113.42358,0.35882626,False
+Barisal,Dinajpur,365.01907,368.56442,3.5453527,False
+Barisal,Faridpur,108.2725,108.43745,0.1649557,False
+Barisal,Feni,112.30065,111.9759,-0.32475478,False
+Barisal,Gazipur,139.10027,139.0875,-0.012765492,False
+Barisal,Hatiya,83.268663,82.96249,-0.30617299,False
+Barisal,Ishurdi,203.93449,204.15638,0.22189143,False
+Barisal,Jashore,131.51919,131.83399,0.31479617,False
+Barisal,Khepupara,86.766438,86.822059,0.055621023,False
+Barisal,Khulna,85.854035,86.192138,0.33810287,False
+Barisal,Madaripur,49.722993,50.591499,0.86850577,False
+Barisal,Maijdee Court,76.337733,76.004718,-0.33301567,False
+Barisal,Mongla,84.635541,84.950619,0.31507839,False
+Barisal,Mymensingh,219.12147,219.13942,0.017943756,False
+Barisal,Patuakhali,46.853782,46.882262,0.028480666,False
+Barisal,Rajshahi,247.59832,247.82919,0.23086941,False
+Barisal,Rangamati,189.72764,189.39181,-0.33582906,False
+Barisal,Rangpur,350.82529,350.93531,0.11001981,False
+Barisal,Saidpur,364.39474,364.52948,0.13474162,False
+Barisal,Satkhira,131.99986,132.33818,0.33832202,False
+Barisal,Sitakunda,137.43096,137.77095,0.33998586,False
+Barisal,Srimangal,221.40991,221.19888,-0.21102949,False
+Barisal,Sylhet,284.33188,284.15033,-0.18155035,False
+Barisal,Tangail,172.90025,172.72153,-0.17872181,False
+Barisal,Teknaf,289.01427,288.77915,-0.2351212,False
+Bhola,Bogra,274.20261,274.20261,0,False
+Bhola,Chandpur,61.371194,65.804482,4.4332878,False
+Bhola,Chittagong,128.57046,128.57046,0,False
+Bhola,Chuadanga,215.94251,215.94251,0,False
+Bhola,Comilla,99.475489,99.475489,0,False
+Bhola,Cox's Bazar,192.89443,192.89443,0,False
+Bhola,Dhaka,123.87069,124.303,0.43231115,False
+Bhola,Dinajpur,385.99629,389.46841,3.4721275,False
+Bhola,Faridpur,130.98119,130.98119,0,False
+Bhola,Feni,87.97454,87.97454,0,False
+Bhola,Gazipur,148.64389,148.64389,0,False
+Bhola,Hatiya,53.927485,53.927485,0,False
+Bhola,Ishurdi,229.45976,229.45976,0,False
+Bhola,Jashore,161.43897,161.43897,0,False
+Bhola,Khepupara,89.020873,89.020873,0,False
+Bhola,Khulna,115.40298,115.40298,0,False
+Bhola,Madaripur,71.362024,72.701589,1.339565,False
+Bhola,Maijdee Court,50.74367,50.74367,0,False
+Bhola,Mongla,110.3084,110.3084,0,False
+Bhola,Mymensingh,228.04335,227.94106,-0.10228973,False
+Bhola,Patuakhali,50.943502,50.943502,0,False
+Bhola,Rajshahi,273.55736,273.55736,0,False
+Bhola,Rangamati,159.98274,159.98274,0,False
+Bhola,Rangpur,368.445,368.445,0,False
+Bhola,Saidpur,383.79715,383.79715,0,False
+Bhola,Satkhira,161.11391,161.11391,0,False
+Bhola,Sitakunda,107.88925,108.33765,0.4483994,False
+Bhola,Srimangal,211.13552,211.13552,0,False
+Bhola,Sylhet,276.75877,276.75877,0,False
+Bhola,Tangail,189.79087,189.39306,-0.39780564,False
+Bhola,Teknaf,263.69033,263.69033,0,False
+Bogra,Chandpur,225.14124,221.586,-3.5552454,False
+Bogra,Chittagong,380.32025,380.32025,0,False
+Bogra,Chuadanga,144.61587,144.61587,0,False
+Bogra,Comilla,242.1985,242.1985,0,False
+Bogra,Cox's Bazar,462.12806,462.12806,0,False
+Bogra,Dhaka,158.28338,157.78634,-0.4970403,False
+Bogra,Dinajpur,112.82093,116.43078,3.6098522,False
+Bogra,Faridpur,147.26934,147.26934,0,False
+Bogra,Feni,290.43841,290.43841,0,False
+Bogra,Gazipur,142.24537,142.24537,0,False
+Bogra,Hatiya,321.64889,321.64889,0,False
+Bogra,Ishurdi,86.36085,86.36085,0,False
+Bogra,Jashore,186.80347,186.80347,0,False
+Bogra,Khepupara,330.97116,330.97116,0,False
+Bogra,Khulna,230.74848,230.74848,0,False
+Bogra,Madaripur,204.94841,204.12125,-0.82715793,False
+Bogra,Maijdee Court,281.81245,281.81245,0,False
+Bogra,Mongla,265.67878,265.67878,0,False
+Bogra,Mymensingh,106.98104,107.98138,1.0003461,False
+Bogra,Patuakhali,296.79309,296.79309,0,False
+Bogra,Rajshahi,86.235112,86.235112,0,False
+Bogra,Rangamati,386.74037,386.74037,0,False
+Bogra,Rangpur,98.858772,98.858772,0,False
+Bogra,Saidpur,109.82509,109.82509,0,False
+Bogra,Satkhira,238.67624,238.67624,0,False
+Bogra,Sitakunda,342.30035,346.36166,4.0613175,False
+Bogra,Srimangal,246.35707,246.35707,0,False
+Bogra,Sylhet,253.26435,253.26435,0,False
+Bogra,Tangail,86.865743,87.516896,0.65115328,False
+Bogra,Teknaf,534.7195,534.7195,0,False
+Chandpur,Chittagong,156.79559,159.84467,3.04908,False
+Chandpur,Chuadanga,197.39769,196.36471,-1.0329866,False
+Chandpur,Comilla,53.819372,52.132103,-1.6872693,False
+Chandpur,Cox's Bazar,237.1376,240.85206,3.7144618,False
+Chandpur,Dhaka,67.856271,64.463546,-3.3927256,False
+Chandpur,Dinajpur,337.95694,338.01411,0.057171038,False
+Chandpur,Faridpur,95.995535,94.16302,-1.8325148,False
+Chandpur,Feni,76.910183,78.301775,1.3915918,False
+Chandpur,Gazipur,90.247496,86.037801,-4.2096947,False
+Chandpur,Hatiya,97.947007,102.00107,4.0540661,True
+Chandpur,Ishurdi,195.56579,193.30536,-2.2604342,False
+Chandpur,Jashore,156.46332,156.66106,0.19773133,False
+Chandpur,Khepupara,147.12885,151.33549,4.2066382,False
+Chandpur,Khulna,129.7846,131.54721,1.76261,False
+Chandpur,Madaripur,51.535316,54.288697,2.753381,False
+Chandpur,Maijdee Court,57.248879,60.438485,3.1896064,False
+Chandpur,Mongla,140.87646,143.57556,2.6991029,False
+Chandpur,Mymensingh,168.1051,163.549,-4.5560958,False
+Chandpur,Patuakhali,107.02331,111.19163,4.1683202,False
+Chandpur,Rajshahi,239.72727,237.37884,-2.3484306,False
+Chandpur,Rangamati,172.25624,174.2911,2.0348544,False
+Chandpur,Rangpur,315.28032,311.35468,-3.9256415,False
+Chandpur,Saidpur,333.09606,329.34793,-3.7481299,False
+Chandpur,Satkhira,175.27283,176.73885,1.4660266,False
+Chandpur,Sitakunda,122.22316,127.96378,5.7406168,False
+Chandpur,Srimangal,158.56384,155.2435,-3.320339,False
+Chandpur,Sylhet,220.98565,217.25139,-3.7342667,False
+Chandpur,Tangail,138.44436,134.22089,-4.2234684,False
+Chandpur,Teknaf,309.91961,313.68208,3.7624672,False
+Chittagong,Chuadanga,343.33984,343.33984,0,False
+Chittagong,Comilla,144.69965,144.69965,0,False
+Chittagong,Cox's Bazar,92.484644,92.484644,0,False
+Chittagong,Dhaka,222.06874,222.56612,0.49737724,False
+Chittagong,Dinajpur,492.95739,496.60892,3.6515322,False
+Chittagong,Faridpur,250.13177,250.13177,0,False
+Chittagong,Feni,93.949542,93.949542,0,False
+Chittagong,Gazipur,239.7828,239.7828,0,False
+Chittagong,Hatiya,76.153446,76.153446,0,False
+Chittagong,Ishurdi,350.58491,350.58491,0,False
+Chittagong,Jashore,290.00929,290.00929,0,False
+Chittagong,Khepupara,166.9247,166.9247,0,False
+Chittagong,Khulna,241.94753,241.94753,0,False
+Chittagong,Madaripur,193.96516,195.72519,1.7600234,False
+Chittagong,Maijdee Court,99.581803,99.581803,0,False
+Chittagong,Mongla,229.35475,229.35475,0,False
+Chittagong,Mymensingh,307.56199,307.09008,-0.47191523,False
+Chittagong,Patuakhali,153.43385,153.43385,0,False
+Chittagong,Rajshahi,394.97227,394.97227,0,False
+Chittagong,Rangamati,48.600089,48.600089,0,False
+Chittagong,Rangpur,466.05301,466.05301,0,False
+Chittagong,Saidpur,486.27114,486.27114,0,False
+Chittagong,Satkhira,285.90052,285.90052,0,False
+Chittagong,Sitakunda,41.886758,36.61079,-5.2759684,False
+Chittagong,Srimangal,225.91308,225.91308,0,False
+Chittagong,Sylhet,292.50696,292.50696,0,False
+Chittagong,Tangail,293.49831,292.82384,-0.6744706,False
+Chittagong,Teknaf,163.39416,163.39416,0,False
+Chuadanga,Comilla,241.81974,241.81974,0,False
+Chuadanga,Cox's Bazar,405.53997,405.53997,0,False
+Chuadanga,Dhaka,159.68788,159.38132,-0.30656011,False
+Chuadanga,Dinajpur,222.83971,225.26995,2.4302432,False
+Chuadanga,Faridpur,105.07882,105.07882,0,False
+Chuadanga,Feni,274.25054,274.25054,0,False
+Chuadanga,Gazipur,167.33838,167.33838,0,False
+Chuadanga,Hatiya,269.86746,269.86746,0,False
+Chuadanga,Ishurdi,58.271254,58.271254,0,False
+Chuadanga,Jashore,63.29864,63.29864,0,False
+Chuadanga,Khepupara,235.3,235.3,0,False
+Chuadanga,Khulna,120.92481,120.92481,0,False
+Chuadanga,Madaripur,150.59265,148.68608,-1.9065706,False
+Chuadanga,Maijdee Court,248.53823,248.53823,0,False
+Chuadanga,Mongla,153.57111,153.57111,0,False
+Chuadanga,Mymensingh,201.2325,202.05142,0.81892043,False
+Chuadanga,Patuakhali,213.15064,213.15064,0,False
+Chuadanga,Rajshahi,80.982975,80.982975,0,False
+Chuadanga,Rangamati,367.46218,367.46218,0,False
+Chuadanga,Rangpur,234.96509,234.96509,0,False
+Chuadanga,Saidpur,233.72805,233.72805,0,False
+Chuadanga,Satkhira,106.7716,106.7716,0,False
+Chuadanga,Sitakunda,315.5543,317.64535,2.0910492,False
+Chuadanga,Srimangal,304.35894,304.35894,0,False
+Chuadanga,Sylhet,339.8767,339.8767,0,False
+Chuadanga,Tangail,130.17845,131.05207,0.87362722,False
+Chuadanga,Teknaf,473.03642,473.03642,0,False
+Comilla,Cox's Bazar,234.65805,234.65805,0,False
+Comilla,Dhaka,89.397881,89.856175,0.45829388,False
+Comilla,Dinajpur,353.36768,357.07768,3.7100014,False
+Comilla,Faridpur,136.91869,136.91869,0,False
+Comilla,Feni,50.790582,50.790582,0,False
+Comilla,Gazipur,100.01767,100.01767,0,False
+Comilla,Hatiya,111.49647,111.49647,0,False
+Comilla,Ishurdi,230.28645,230.28645,0,False
+Comilla,Jashore,207.13891,207.13891,0,False
+Comilla,Khepupara,188.39201,188.39201,0,False
+Comilla,Khulna,183.57953,183.57953,0,False
+Comilla,Madaripur,104.17586,106.13966,1.9638038,False
+Comilla,Maijdee Court,62.804135,62.804135,0,False
+Comilla,Mongla,193.82236,193.82236,0,False
+Comilla,Mymensingh,162.87512,162.39669,-0.47843556,False
+Comilla,Patuakhali,150.14429,150.14429,0,False
+Comilla,Rajshahi,272.91903,272.91903,0,False
+Comilla,Rangamati,144.63018,144.63018,0,False
+Comilla,Rangpur,322.92228,322.92228,0,False
+Comilla,Saidpur,344.60692,344.60692,0,False
+Comilla,Satkhira,228.87086,228.87086,0,False
+Comilla,Sitakunda,103.65683,108.47045,4.8136166,False
+Comilla,Srimangal,111.74284,111.74284,0,False
+Comilla,Sylhet,178.21588,178.21588,0,False
+Comilla,Tangail,157.27708,156.4495,-0.82758446,False
+Comilla,Teknaf,307.13622,307.13622,0,False
+Cox's Bazar,Dhaka,304.76747,305.25757,0.49009394,False
+Cox's Bazar,Dinajpur,574.8834,578.45802,3.5746108,False
+Cox's Bazar,Faridpur,323.35745,323.35745,0,False
+Cox's Bazar,Feni,184.58186,184.58186,0,False
+Cox's Bazar,Gazipur,325.0613,325.0613,0,False
+Cox's Bazar,Hatiya,141.16121,141.16121,0,False
+Cox's Bazar,Ishurdi,422.35415,422.35415,0,False
+Cox's Bazar,Jashore,346.34439,346.34439,0,False
+Cox's Bazar,Khepupara,189.16205,189.16205,0,False
+Cox's Bazar,Khulna,291.62508,291.62508,0,False
+Cox's Bazar,Madaripur,264.06164,265.48431,1.4226776,False
+Cox's Bazar,Maijdee Court,181.54313,181.54313,0,False
+Cox's Bazar,Mongla,269.43914,269.43914,0,False
+Cox's Bazar,Mymensingh,396.65904,396.25145,-0.40758598,False
+Cox's Bazar,Patuakhali,195.46496,195.46496,0,False
+Cox's Bazar,Rajshahi,466.42964,466.42964,0,False
+Cox's Bazar,Rangamati,122.40962,122.40962,0,False
+Cox's Bazar,Rangpur,551.72087,551.72087,0,False
+Cox's Bazar,Saidpur,570.19812,570.19812,0,False
+Cox's Bazar,Satkhira,329.55181,329.55181,0,False
+Cox's Bazar,Sitakunda,134.1287,128.69617,-5.432534,False
+Cox's Bazar,Srimangal,317.85811,317.85811,0,False
+Cox's Bazar,Sylhet,383.73328,383.73328,0,False
+Cox's Bazar,Tangail,375.56373,374.99176,-0.57197773,False
+Cox's Bazar,Teknaf,73.009449,73.009449,0,False
+Dhaka,Dinajpur,271.02311,274.16081,3.1377044,False
+Dhaka,Faridpur,57.382305,57.183988,-0.19831716,False
+Dhaka,Feni,133.80224,134.29214,0.48989804,False
+Dhaka,Gazipur,26.208798,25.896206,-0.31259224,False
+Dhaka,Hatiya,165.72687,166.20491,0.47803612,False
+Dhaka,Ishurdi,141.38643,140.9588,-0.42763284,False
+Dhaka,Jashore,139.89055,139.7634,-0.12714856,False
+Dhaka,Khepupara,199.29201,199.63149,0.33948254,False
+Dhaka,Khulna,140.12342,140.20125,0.077835666,False
+Dhaka,Madaripur,68.933838,69.765923,0.83208521,False
+Dhaka,Maijdee Court,123.68324,124.17791,0.49466332,False
+Dhaka,Mongla,164.94276,165.09984,0.1570816,False
+Dhaka,Mymensingh,106.06756,105.75689,-0.31066573,False
+Dhaka,Patuakhali,159.84702,160.20261,0.35559141,False
+Dhaka,Rajshahi,183.59426,183.14641,-0.44784477,False
+Dhaka,Rangamati,231.10353,231.59119,0.48765431,False
+Dhaka,Rangpur,247.42742,246.94615,-0.48126972,False
+Dhaka,Saidpur,265.44839,264.95703,-0.49135502,False
+Dhaka,Satkhira,176.85137,176.83846,-0.012903941,False
+Dhaka,Sitakunda,184.62015,188.98436,4.3642193,False
+Dhaka,Srimangal,149.06626,149.22688,0.16062483,False
+Dhaka,Sylhet,197.16477,197.18649,0.021714237,False
+Dhaka,Tangail,71.432834,70.270671,-1.1621628,False
+Dhaka,Teknaf,377.63398,378.12289,0.48890272,False
+Dinajpur,Faridpur,256.79872,260.16983,3.3711068,False
+Dinajpur,Feni,402.37786,406.06889,3.6910327,False
+Dinajpur,Gazipur,253.95605,257.64653,3.6904891,False
+Dinajpur,Hatiya,434.24112,437.78852,3.5474039,False
+Dinajpur,Ishurdi,173.08752,175.92817,2.8406459,False
+Dinajpur,Jashore,279.09585,281.8353,2.7394546,False
+Dinajpur,Khepupara,437.4729,440.6468,3.1739033,False
+Dinajpur,Khulna,330.56276,333.50921,2.9464494,False
+Dinajpur,Madaripur,315.79621,318.22548,2.4292672,False
+Dinajpur,Maijdee Court,394.61658,398.23741,3.6208261,False
+Dinajpur,Mongla,365.72575,368.65922,2.9334712,False
+Dinajpur,Mymensingh,203.34166,207.92539,4.5837255,False
+Dinajpur,Patuakhali,405.42491,408.70788,3.2829721,False
+Dinajpur,Rajshahi,142.34397,144.64136,2.2973951,False
+Dinajpur,Rangamati,497.97385,501.68665,3.7127988,False
+Dinajpur,Rangpur,55.825315,58.494961,2.6696458,False
+Dinajpur,Saidpur,26.49331,28.475588,1.9822781,False
+Dinajpur,Satkhira,328.31746,330.91117,2.5937104,False
+Dinajpur,Sitakunda,454.5725,462.40602,7.8335228,False
+Dinajpur,Srimangal,342.10732,345.7778,3.6704818,False
+Dinajpur,Sylhet,332.3817,335.83627,3.4545668,False
+Dinajpur,Tangail,199.65292,203.91261,4.259687,False
+Dinajpur,Teknaf,647.40588,650.96487,3.5589933,False
+Faridpur,Feni,172.39308,172.39308,0,False
+Faridpur,Gazipur,73.083875,73.083875,0,False
+Faridpur,Hatiya,182.45749,182.45749,0,False
+Faridpur,Ishurdi,100.4537,100.4537,0,False
+Faridpur,Jashore,83.649648,83.649648,0,False
+Faridpur,Khepupara,184.29964,184.29964,0,False
+Faridpur,Khulna,96.868667,96.868667,0,False
+Faridpur,Madaripur,59.684013,58.485193,-1.1988192,False
+Faridpur,Maijdee Court,151.33106,151.33106,0,False
+Faridpur,Mongla,128.22813,128.22813,0,False
+Faridpur,Mymensingh,137.3095,137.73984,0.43033961,False
+Faridpur,Patuakhali,149.52383,149.52383,0,False
+Faridpur,Rajshahi,144.84572,144.84572,0,False
+Faridpur,Rangamati,268.24193,268.24193,0,False
+Faridpur,Rangpur,244.99021,244.99021,0,False
+Faridpur,Saidpur,256.87084,256.87084,0,False
+Faridpur,Satkhira,125.58503,125.58503,0,False
+Faridpur,Sitakunda,217.77741,220.61379,2.8363753,False
+Faridpur,Srimangal,206.29237,206.29237,0,False
+Faridpur,Sylhet,251.49389,251.49389,0,False
+Faridpur,Tangail,72.626142,72.732747,0.10660536,False
+Faridpur,Teknaf,394.61442,394.61442,0,False
+Feni,Gazipur,148.42243,148.42243,0,False
+Feni,Hatiya,74.352084,74.352084,0,False
+Feni,Ishurdi,270.72588,270.72588,0,False
+Feni,Jashore,230.72189,230.72189,0,False
+Feni,Khepupara,169.0411,169.0411,0,False
+Feni,Khulna,195.57218,195.57218,0,False
+Feni,Madaripur,125.74805,127.77814,2.0300889,False
+Feni,Maijdee Court,37.284461,37.284461,0,False
+Feni,Mongla,196.74229,196.74229,0,False
+Feni,Mymensingh,213.66197,213.18001,-0.48195342,False
+Feni,Patuakhali,136.25075,136.25075,0,False
+Feni,Rajshahi,314.46915,314.46915,0,False
+Feni,Rangamati,97.394644,97.394644,0,False
+Feni,Rangpur,373.25137,373.25137,0,False
+Feni,Saidpur,394.40427,394.40427,0,False
+Feni,Satkhira,242.19595,242.19595,0,False
+Feni,Sitakunda,52.931314,57.684571,4.7532569,False
+Feni,Srimangal,144.70372,144.70372,0,False
+Feni,Sylhet,213.12256,213.12256,0,False
+Feni,Tangail,204.32345,203.56288,-0.7605698,False
+Feni,Teknaf,256.75419,256.75419,0,False
+Gazipur,Hatiya,187.89711,187.89711,0,False
+Gazipur,Ishurdi,139.84514,139.84514,0,False
+Gazipur,Jashore,156.64778,156.64778,0,False
+Gazipur,Khepupara,225.45439,225.45439,0,False
+Gazipur,Khulna,163.25711,163.25711,0,False
+Gazipur,Madaripur,94.975874,95.477514,0.50164015,False
+Gazipur,Maijdee Court,143.52958,143.52958,0,False
+Gazipur,Mongla,189.63892,189.63892,0,False
+Gazipur,Mymensingh,80.060458,80.066866,0.006407762,False
+Gazipur,Patuakhali,185.92355,185.92355,0,False
+Gazipur,Rajshahi,179.25233,179.25233,0,False
+Gazipur,Rangamati,244.49591,244.49591,0,False
+Gazipur,Rangpur,226.75274,226.75274,0,False
+Gazipur,Saidpur,246.49554,246.49554,0,False
+Gazipur,Satkhira,197.40151,197.40151,0,False
+Gazipur,Sitakunda,200.72295,204.98989,4.2669482,False
+Gazipur,Srimangal,137.03797,137.03797,0,False
+Gazipur,Sylhet,178.47955,178.47955,0,False
+Gazipur,Tangail,57.85719,56.969265,-0.8879255,False
+Gazipur,Teknaf,398.06218,398.06218,0,False
+Hatiya,Ishurdi,282.08494,282.08494,0,False
+Hatiya,Jashore,214.68691,214.68691,0,False
+Hatiya,Khepupara,102.59451,102.59451,0,False
+Hatiya,Khulna,165.79609,165.79609,0,False
+Hatiya,Madaripur,123.61907,125.15647,1.5373961,False
+Hatiya,Maijdee Court,48.925835,48.925835,0,False
+Hatiya,Mongla,154.21544,154.21544,0,False
+Hatiya,Mymensingh,263.89694,263.63119,-0.26574625,False
+Hatiya,Patuakhali,79.948159,79.948159,0,False
+Hatiya,Rajshahi,326.35822,326.35822,0,False
+Hatiya,Rangamati,113.56568,113.56568,0,False
+Hatiya,Rangpur,413.12267,413.12267,0,False
+Hatiya,Saidpur,430.38644,430.38644,0,False
+Hatiya,Satkhira,209.89358,209.89358,0,False
+Hatiya,Sitakunda,65.515041,63.853123,-1.6619182,False
+Hatiya,Srimangal,217.65079,217.65079,0,False
+Hatiya,Sylhet,285.9066,285.9066,0,False
+Hatiya,Tangail,235.51536,234.99482,-0.52054046,False
+Hatiya,Teknaf,213.23601,213.23601,0,False
+Ishurdi,Jashore,106.34002,106.34002,0,False
+Ishurdi,Khepupara,267.81951,267.81951,0,False
+Ishurdi,Khulna,157.8964,157.8964,0,False
+Ishurdi,Madaripur,158.47683,156.97721,-1.4996246,False
+Ishurdi,Maijdee Court,251.64544,251.64544,0,False
+Ishurdi,Mongla,192.94009,192.94009,0,False
+Ishurdi,Mymensingh,153.43494,154.35075,0.91580951,False
+Ishurdi,Patuakhali,239.09086,239.09086,0,False
+Ishurdi,Rajshahi,44.399457,44.399457,0,False
+Ishurdi,Rangamati,367.53479,367.53479,0,False
+Ishurdi,Rangpur,178.83545,178.83545,0,False
+Ishurdi,Saidpur,180.61222,180.61222,0,False
+Ishurdi,Satkhira,156.81494,156.81494,0,False
+Ishurdi,Sitakunda,317.75264,320.74827,2.9956352,False
+Ishurdi,Srimangal,272.43464,272.43464,0,False
+Ishurdi,Sylhet,298.83414,298.83414,0,False
+Ishurdi,Tangail,89.248114,90.251148,1.0030339,False
+Ishurdi,Teknaf,492.77388,492.77388,0,False
+Jashore,Khepupara,172.18674,172.18674,0,False
+Jashore,Khulna,57.762141,57.762141,0,False
+Jashore,Madaripur,105.29476,103.25044,-2.0443198,False
+Jashore,Maijdee Court,200.49337,200.49337,0,False
+Jashore,Mongla,90.415551,90.415551,0,False
+Jashore,Mymensingh,213.20732,213.81425,0.60693909,False
+Jashore,Patuakhali,151.9248,151.9248,0,False
+Jashore,Rajshahi,140.69966,140.69966,0,False
+Jashore,Rangamati,318.76382,318.76382,0,False
+Jashore,Rangpur,283.61247,283.61247,0,False
+Jashore,Saidpur,286.88905,286.88905,0,False
+Jashore,Satkhira,51.97325,51.97325,0,False
+Jashore,Sitakunda,266.25577,267.6335,1.377726,False
+Jashore,Srimangal,288.79468,288.79468,0,False
+Jashore,Sylhet,335.11611,335.11611,0,False
+Jashore,Tangail,141.37046,141.92287,0.55240915,False
+Jashore,Teknaf,412.37088,412.37088,0,False
+Khepupara,Khulna,114.42586,114.42586,0,False
+Khepupara,Madaripur,132.35799,132.42169,0.063700322,False
+Khepupara,Maijdee Court,133.38001,133.38001,0,False
+Khepupara,Mongla,84.699146,84.699146,0,False
+Khepupara,Mymensingh,305.29115,305.35769,0.066541991,False
+Khepupara,Patuakhali,40.257812,40.257812,0,False
+Khepupara,Rajshahi,308.35324,308.35324,0,False
+Khepupara,Rangamati,211.75742,211.75742,0,False
+Khepupara,Rangpur,429.19665,429.19665,0,False
+Khepupara,Saidpur,439.85018,439.85018,0,False
+Khepupara,Satkhira,144.0754,144.0754,0,False
+Khepupara,Sitakunda,167.60908,165.31264,-2.2964348,False
+Khepupara,Srimangal,300.11359,300.11359,0,False
+Khepupara,Sylhet,365.71692,365.71692,0,False
+Khepupara,Tangail,254.3956,254.27021,-0.12539792,False
+Khepupara,Teknaf,247.26933,247.26933,0,False
+Khulna,Madaripur,81.149861,79.426796,-1.7230646,False
+Khulna,Maijdee Court,161.21603,161.21603,0,False
+Khulna,Mongla,35.211256,35.211256,0,False
+Khulna,Mymensingh,233.96235,234.35822,0.3958679,False
+Khulna,Patuakhali,96.190736,96.190736,0,False
+Khulna,Rajshahi,195.99198,195.99198,0,False
+Khulna,Rangamati,275.38569,275.38569,0,False
+Khulna,Rangpur,329.43192,329.43192,0,False
+Khulna,Saidpur,335.98667,335.98667,0,False
+Khulna,Satkhira,46.624683,46.624683,0,False
+Khulna,Sitakunda,223.21611,223.7406,0.52449804,False
+Khulna,Srimangal,280.81786,280.81786,0,False
+Khulna,Sylhet,335.68719,335.68719,0,False
+Khulna,Tangail,168.22371,168.46761,0.24390746,False
+Khulna,Teknaf,356.16123,356.16123,0,False
+Madaripur,Maijdee Court,97.960822,99.88772,1.9268981,False
+Madaripur,Mongla,99.197189,97.93968,-1.2575095,False
+Madaripur,Mymensingh,173.79629,174.21469,0.41839455,False
+Madaripur,Patuakhali,94.350339,94.661875,0.31153619,False
+Madaripur,Rajshahi,202.73926,201.21148,-1.5277781,False
+Madaripur,Rangamati,216.93942,218.87637,1.9369472,False
+Madaripur,Rangpur,301.11289,300.45903,-0.6538605,False
+Madaripur,Saidpur,314.77292,313.94541,-0.82751444,False
+Madaripur,Satkhira,125.12493,123.25061,-1.8743183,False
+Madaripur,Sitakunda,164.96166,168.97788,4.0162165,False
+Madaripur,Srimangal,200.10255,201.69094,1.5883861,False
+Madaripur,Sylhet,257.11759,258.46959,1.3519994,False
+Madaripur,Tangail,123.42756,122.75815,-0.66940547,False
+Madaripur,Teknaf,335.05084,336.38625,1.3354163,False
+Maijdee Court,Mongla,160.20323,160.20323,0,False
+Maijdee Court,Mymensingh,217.03202,216.70987,-0.32214359,False
+Maijdee Court,Patuakhali,99.265014,99.265014,0,False
+Maijdee Court,Rajshahi,295.97046,295.97046,0,False
+Maijdee Court,Rangamati,119.00436,119.00436,0,False
+Maijdee Court,Rangpur,370.18619,370.18619,0,False
+Maijdee Court,Saidpur,389.02336,389.02336,0,False
+Maijdee Court,Satkhira,207.73999,207.73999,0,False
+Maijdee Court,Sitakunda,67.064791,69.474615,2.4098242,False
+Maijdee Court,Srimangal,171.47974,171.47974,0,False
+Maijdee Court,Sylhet,239.24958,239.24958,0,False
+Maijdee Court,Tangail,194.96415,194.33708,-0.62706837,False
+Maijdee Court,Teknaf,254.53707,254.53707,0,False
+Mongla,Mymensingh,263.77047,264.09497,0.32449621,False
+Mongla,Patuakhali,76.645107,76.645107,0,False
+Mongla,Rajshahi,230.3627,230.3627,0,False
+Mongla,Rangamati,267.18017,267.18017,0,False
+Mongla,Rangpur,364.43541,364.43541,0,False
+Mongla,Saidpur,371.18965,371.18965,0,False
+Mongla,Satkhira,60.187515,60.187515,0,False
+Mongla,Sitakunda,216.38749,216.0405,-0.34698911,False
+Mongla,Srimangal,297.75584,297.75584,0,False
+Mongla,Sylhet,356.22909,356.22909,0,False
+Mongla,Tangail,200.60437,200.7731,0.16872987,False
+Mongla,Teknaf,330.8913,330.8913,0,False
+Mymensingh,Patuakhali,265.91457,265.95169,0.037123949,False
+Mymensingh,Rajshahi,178.27119,179.25838,0.98718684,False
+Mymensingh,Rangamati,303.60762,303.00037,-0.60724806,False
+Mymensingh,Rangpur,164.13781,164.87281,0.73500009,False
+Mymensingh,Saidpur,189.41848,190.22057,0.80208329,False
+Mymensingh,Satkhira,260.889,261.42265,0.53364863,False
+Mymensingh,Sitakunda,266.45259,270.83924,4.3866541,False
+Mymensingh,Srimangal,140.52588,139.57205,-0.95382533,False
+Mymensingh,Sylhet,148.71334,147.71328,-1.0000619,False
+Mymensingh,Tangail,72.741868,72.741868,8.9528385e-13,False
+Mymensingh,Teknaf,469.45656,469.03692,-0.41963737,False
+Patuakhali,Rajshahi,281.31988,281.31988,0,False
+Patuakhali,Rangamati,193.48471,193.48471,0,False
+Patuakhali,Rangpur,394.21557,394.21557,0,False
+Patuakhali,Saidpur,406.33803,406.33803,0,False
+Patuakhali,Satkhira,135.51571,135.51571,0,False
+Patuakhali,Sitakunda,144.65966,143.5046,-1.1550579,False
+Patuakhali,Srimangal,261.57107,261.57107,0,False
+Patuakhali,Sylhet,326.49185,326.49185,0,False
+Patuakhali,Tangail,217.56193,217.36768,-0.1942434,False
+Patuakhali,Teknaf,260.44977,260.44977,0,False
+Rajshahi,Rangamati,411.47826,411.47826,0,False
+Rajshahi,Rangpur,160.37258,160.37258,0,False
+Rajshahi,Saidpur,155.04093,155.04093,0,False
+Rajshahi,Satkhira,187.51606,187.51606,0,False
+Rajshahi,Sitakunda,361.94649,364.99647,3.0499743,False
+Rajshahi,Srimangal,307.07879,307.07879,0,False
+Rajshahi,Sylhet,326.76556,326.76556,0,False
+Rajshahi,Tangail,124.34697,125.35451,1.0075416,False
+Rajshahi,Teknaf,536.59038,536.59038,0,False
+Rangamati,Rangpur,466.26921,466.26921,0,False
+Rangamati,Saidpur,488.79339,488.79339,0,False
+Rangamati,Satkhira,320.91997,320.91997,0,False
+Rangamati,Sitakunda,52.5261,51.64509,-0.88101018,False
+Rangamati,Srimangal,202.57329,202.57329,0,False
+Rangamati,Sylhet,265.53788,265.53788,0,False
+Rangamati,Tangail,301.19157,300.40393,-0.78764007,False
+Rangamati,Teknaf,184.87271,184.87271,0,False
+Rangpur,Saidpur,31.129641,31.129641,0,False
+Rangpur,Satkhira,335.04251,335.04251,0,False
+Rangpur,Sitakunda,426.11365,430.65125,4.5376064,False
+Rangpur,Srimangal,297.88603,297.88603,0,False
+Rangpur,Sylhet,281.8981,281.8981,0,False
+Rangpur,Tangail,178.6574,179.05207,0.39467155,False
+Rangpur,Teknaf,624.69665,624.69665,0,False
+Saidpur,Satkhira,337.31131,337.31131,0,False
+Saidpur,Sitakunda,447.03173,451.39352,4.3617926,False
+Saidpur,Srimangal,325.80087,325.80087,0,False
+Saidpur,Sylhet,312.1486,312.1486,0,False
+Saidpur,Tangail,194.87116,195.39418,0.52301443,False
+Saidpur,Teknaf,643.01551,643.01551,0,False
+Satkhira,Sitakunda,268.99577,269.30879,0.31301169,False
+Satkhira,Srimangal,322.28674,322.28674,0,False
+Satkhira,Sylhet,374.00557,374.00557,0,False
+Satkhira,Tangail,190.47776,190.93856,0.46079744,False
+Satkhira,Teknaf,390.92784,390.92784,0,False
+Sitakunda,Srimangal,185.72099,191.28002,5.5590304,False
+Sitakunda,Sylhet,253.0765,258.62223,5.5457304,False
+Sitakunda,Tangail,255.7761,259.03289,3.2567905,False
+Sitakunda,Teknaf,205.27861,199.98864,-5.2899722,False
+Srimangal,Sylhet,68.41893,68.41893,0,False
+Srimangal,Tangail,183.55089,182.53774,-1.0131462,False
+Srimangal,Teknaf,385.86058,385.86058,0,False
+Sylhet,Tangail,210.96463,210.01492,-0.94971108,False
+Sylhet,Teknaf,450.1757,450.1757,0,False
+Tangail,Teknaf,448.28087,447.72214,-0.55872628,False

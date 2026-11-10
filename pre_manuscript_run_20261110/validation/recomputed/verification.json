@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "n_executed_jobs": 191,
+  "n_station_method_metrics": 4216,
+  "summary_rows": 124,
+  "jobs_by_experiment_target": {
+    "('buffer100', 'Prcp')": 4,
+    "('buffer100', 'Tmax')": 4,
+    "('buffer100', 'Tmin')": 4,
+    "('loso', 'Prcp')": 34,
+    "('loso', 'Tmax')": 34,
+    "('loso', 'Tmin')": 34,
+    "('partition', 'Prcp')": 25,
+    "('partition', 'Tmin')": 25,
+    "('spatial_block', 'Prcp')": 4,
+    "('spatial_block', 'Tmax')": 4,
+    "('spatial_block', 'Tmin')": 4,
+    "('spatiotemporal', 'Prcp')": 4,
+    "('spatiotemporal', 'Tmax')": 4,
+    "('spatiotemporal', 'Tmin')": 4,
+    "('temporal', 'Prcp')": 1,
+    "('temporal', 'Tmax')": 1,
+    "('temporal', 'Tmin')": 1
+  },
+  "verification_errors": [],
+  "comparison_with_prior_export": {
+    "status": "compared",
+    "matched_station_method_target_rows": 408,
+    "max_absolute_rmse_difference": 3.552713678800501e-15,
+    "median_absolute_rmse_difference": 0.0,
+    "within_1e_minus_8": 408,
+    "within_1e_minus_4": 408,
+    "note": "Earlier file is an author-provided result export, not an independent raw-data benchmark."
+  },
+  "interpretation_limit": "Hash and split checks validate integrity, not independence of raw data or scientific truth."
+}

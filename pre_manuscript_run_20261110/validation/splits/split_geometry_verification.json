@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checked_jobs": 191,
+  "native_station_count": 34,
+  "unique_design_target_groups": 25,
+  "min_100km_buffer_distance_km": 100.45355872956983,
+  "errors": [],
+  "limitations": "Coordinates are taken from user-supplied draft metadata and need authority/source validation."
+}

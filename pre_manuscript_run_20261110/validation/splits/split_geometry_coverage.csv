@@ -1,0 +1,192 @@
+experiment,design,fold,target,n_train_stations,n_test_stations,min_train_to_test_distance_km,train_dates_max,test_dates_min,test_station_names
+buffer100,seed42,block_0,Prcp,26,6,100.45355872956983,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+buffer100,seed42,block_0,Tmax,26,6,100.45355872956983,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+buffer100,seed42,block_0,Tmin,26,6,100.45355872956983,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+buffer100,seed42,block_1,Prcp,13,12,107.88910575613849,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+buffer100,seed42,block_1,Tmax,13,12,107.88910575613849,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+buffer100,seed42,block_1,Tmin,13,12,107.88910575613849,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+buffer100,seed42,block_2,Prcp,19,7,103.65669173355737,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+buffer100,seed42,block_2,Tmax,19,7,103.65669173355737,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+buffer100,seed42,block_2,Tmin,19,7,103.65669173355737,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+buffer100,seed42,block_3,Prcp,19,9,102.59437039008792,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+buffer100,seed42,block_3,Tmax,19,9,102.59437039008792,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+buffer100,seed42,block_3,Tmin,19,9,102.59437039008792,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+loso,seed42,Ambagan (Ctg),Prcp,33,1,10.472558734078,2023-12-31,2000-01-01,Ambagan (Ctg)
+loso,seed42,Ambagan (Ctg),Tmax,33,1,10.472558734078,2023-12-31,2000-01-01,Ambagan (Ctg)
+loso,seed42,Ambagan (Ctg),Tmin,33,1,10.472558734078,2023-12-31,2000-01-01,Ambagan (Ctg)
+loso,seed42,Barisal,Prcp,33,1,30.0825865229483,2023-12-31,2000-01-01,Barisal
+loso,seed42,Barisal,Tmax,33,1,30.0825865229483,2023-12-31,2000-01-01,Barisal
+loso,seed42,Barisal,Tmin,33,1,30.0825865229483,2023-12-31,2000-01-01,Barisal
+loso,seed42,Bhola,Prcp,33,1,30.0825865229483,2023-12-31,2000-01-01,Bhola
+loso,seed42,Bhola,Tmax,33,1,30.0825865229483,2023-12-31,2000-01-01,Bhola
+loso,seed42,Bhola,Tmin,33,1,30.0825865229483,2023-12-31,2000-01-01,Bhola
+loso,seed42,Bogra,Prcp,33,1,86.23499331914118,2023-12-31,2000-01-01,Bogra
+loso,seed42,Bogra,Tmax,33,1,86.23499331914118,2023-12-31,2000-01-01,Bogra
+loso,seed42,Bogra,Tmin,33,1,86.23499331914118,2023-12-31,2000-01-01,Bogra
+loso,seed42,Chandpur,Prcp,33,1,51.53524443723261,2023-12-31,2000-01-01,Chandpur
+loso,seed42,Chandpur,Tmax,33,1,51.53524443723261,2023-12-31,2000-01-01,Chandpur
+loso,seed42,Chandpur,Tmin,33,1,51.53524443723261,2023-12-31,2000-01-01,Chandpur
+loso,seed42,Chittagong,Prcp,33,1,10.472558734078,2023-12-31,2000-01-01,Chittagong
+loso,seed42,Chittagong,Tmax,33,1,10.472558734078,2023-12-31,2000-01-01,Chittagong
+loso,seed42,Chittagong,Tmin,33,1,10.472558734078,2023-12-31,2000-01-01,Chittagong
+loso,seed42,Chuadanga,Prcp,33,1,58.27117350661008,2023-12-31,2000-01-01,Chuadanga
+loso,seed42,Chuadanga,Tmax,33,1,58.27117350661008,2023-12-31,2000-01-01,Chuadanga
+loso,seed42,Chuadanga,Tmin,33,1,58.27117350661008,2023-12-31,2000-01-01,Chuadanga
+loso,seed42,Comilla,Prcp,33,1,50.79051160519402,2023-12-31,2000-01-01,Comilla
+loso,seed42,Comilla,Tmax,33,1,50.79051160519402,2023-12-31,2000-01-01,Comilla
+loso,seed42,Comilla,Tmin,33,1,50.79051160519402,2023-12-31,2000-01-01,Comilla
+loso,seed42,Cox's Bazar,Prcp,33,1,73.00934855474189,2023-12-31,2000-01-01,Cox's Bazar
+loso,seed42,Cox's Bazar,Tmax,33,1,73.00934855474189,2023-12-31,2000-01-01,Cox's Bazar
+loso,seed42,Cox's Bazar,Tmin,33,1,73.00934855474189,2023-12-31,2000-01-01,Cox's Bazar
+loso,seed42,Dhaka,Prcp,33,1,26.208761979142217,2023-12-31,2000-01-01,Dhaka
+loso,seed42,Dhaka,Tmax,33,1,26.208761979142217,2023-12-31,2000-01-01,Dhaka
+loso,seed42,Dhaka,Tmin,33,1,26.208761979142217,2023-12-31,2000-01-01,Dhaka
+loso,seed42,Dinajpur,Prcp,33,1,26.493273308081278,2023-12-31,2000-01-01,Dinajpur
+loso,seed42,Dinajpur,Tmax,33,1,26.493273308081278,2023-12-31,2000-01-01,Dinajpur
+loso,seed42,Dinajpur,Tmin,33,1,26.493273308081278,2023-12-31,2000-01-01,Dinajpur
+loso,seed42,Faridpur,Prcp,33,1,57.382226135923155,2023-12-31,2000-01-01,Faridpur
+loso,seed42,Faridpur,Tmax,33,1,57.382226135923155,2023-12-31,2000-01-01,Faridpur
+loso,seed42,Faridpur,Tmin,33,1,57.382226135923155,2023-12-31,2000-01-01,Faridpur
+loso,seed42,Feni,Prcp,33,1,37.28440905386554,2023-12-31,2000-01-01,Feni
+loso,seed42,Feni,Tmax,33,1,37.28440905386554,2023-12-31,2000-01-01,Feni
+loso,seed42,Feni,Tmin,33,1,37.28440905386554,2023-12-31,2000-01-01,Feni
+loso,seed42,Gazipur,Prcp,33,1,26.208761979142217,2023-12-31,2000-01-01,Gazipur
+loso,seed42,Gazipur,Tmax,33,1,26.208761979142217,2023-12-31,2000-01-01,Gazipur
+loso,seed42,Gazipur,Tmin,33,1,26.208761979142217,2023-12-31,2000-01-01,Gazipur
+loso,seed42,Hatiya,Prcp,33,1,48.92576772360598,2023-12-31,2000-01-01,Hatiya
+loso,seed42,Hatiya,Tmax,33,1,48.92576772360598,2023-12-31,2000-01-01,Hatiya
+loso,seed42,Hatiya,Tmin,33,1,48.92576772360598,2023-12-31,2000-01-01,Hatiya
+loso,seed42,Ishurdi,Prcp,33,1,44.399395547432434,2023-12-31,2000-01-01,Ishurdi
+loso,seed42,Ishurdi,Tmax,33,1,44.399395547432434,2023-12-31,2000-01-01,Ishurdi
+loso,seed42,Ishurdi,Tmin,33,1,44.399395547432434,2023-12-31,2000-01-01,Ishurdi
+loso,seed42,Jashore,Prcp,33,1,51.973178385489064,2023-12-31,2000-01-01,Jashore
+loso,seed42,Jashore,Tmax,33,1,51.973178385489064,2023-12-31,2000-01-01,Jashore
+loso,seed42,Jashore,Tmin,33,1,51.973178385489064,2023-12-31,2000-01-01,Jashore
+loso,seed42,Khepupara,Prcp,33,1,40.2577563866139,2023-12-31,2000-01-01,Khepupara
+loso,seed42,Khepupara,Tmax,33,1,40.2577563866139,2023-12-31,2000-01-01,Khepupara
+loso,seed42,Khepupara,Tmin,33,1,40.2577563866139,2023-12-31,2000-01-01,Khepupara
+loso,seed42,Khulna,Prcp,33,1,35.21120755607168,2023-12-31,2000-01-01,Khulna
+loso,seed42,Khulna,Tmax,33,1,35.21120755607168,2023-12-31,2000-01-01,Khulna
+loso,seed42,Khulna,Tmin,33,1,35.21120755607168,2023-12-31,2000-01-01,Khulna
+loso,seed42,Madaripur,Prcp,33,1,49.72292466556216,2023-12-31,2000-01-01,Madaripur
+loso,seed42,Madaripur,Tmax,33,1,49.72292466556216,2023-12-31,2000-01-01,Madaripur
+loso,seed42,Madaripur,Tmin,33,1,49.72292466556216,2023-12-31,2000-01-01,Madaripur
+loso,seed42,Maijdee Court,Prcp,33,1,37.28440905386554,2023-12-31,2000-01-01,Maijdee Court
+loso,seed42,Maijdee Court,Tmax,33,1,37.28440905386554,2023-12-31,2000-01-01,Maijdee Court
+loso,seed42,Maijdee Court,Tmin,33,1,37.28440905386554,2023-12-31,2000-01-01,Maijdee Court
+loso,seed42,Mongla,Prcp,33,1,35.21120755607168,2023-12-31,2000-01-01,Mongla
+loso,seed42,Mongla,Tmax,33,1,35.21120755607168,2023-12-31,2000-01-01,Mongla
+loso,seed42,Mongla,Tmin,33,1,35.21120755607168,2023-12-31,2000-01-01,Mongla
+loso,seed42,Mymensingh,Prcp,33,1,72.74176749275638,2023-12-31,2000-01-01,Mymensingh
+loso,seed42,Mymensingh,Tmax,33,1,72.74176749275638,2023-12-31,2000-01-01,Mymensingh
+loso,seed42,Mymensingh,Tmin,33,1,72.74176749275638,2023-12-31,2000-01-01,Mymensingh
+loso,seed42,Patuakhali,Prcp,33,1,40.2577563866139,2023-12-31,2000-01-01,Patuakhali
+loso,seed42,Patuakhali,Tmax,33,1,40.2577563866139,2023-12-31,2000-01-01,Patuakhali
+loso,seed42,Patuakhali,Tmin,33,1,40.2577563866139,2023-12-31,2000-01-01,Patuakhali
+loso,seed42,Rajshahi,Prcp,33,1,44.399395547432434,2023-12-31,2000-01-01,Rajshahi
+loso,seed42,Rajshahi,Tmax,33,1,44.399395547432434,2023-12-31,2000-01-01,Rajshahi
+loso,seed42,Rajshahi,Tmin,33,1,44.399395547432434,2023-12-31,2000-01-01,Rajshahi
+loso,seed42,Rangamati,Prcp,33,1,46.18219528812186,2023-12-31,2000-01-01,Rangamati
+loso,seed42,Rangamati,Tmax,33,1,46.18219528812186,2023-12-31,2000-01-01,Rangamati
+loso,seed42,Rangamati,Tmin,33,1,46.18219528812186,2023-12-31,2000-01-01,Rangamati
+loso,seed42,Rangpur,Prcp,33,1,31.129598250509467,2023-12-31,2000-01-01,Rangpur
+loso,seed42,Rangpur,Tmax,33,1,31.129598250509467,2023-12-31,2000-01-01,Rangpur
+loso,seed42,Rangpur,Tmin,33,1,31.129598250509467,2023-12-31,2000-01-01,Rangpur
+loso,seed42,Saidpur,Prcp,33,1,26.493273308081278,2023-12-31,2000-01-01,Saidpur
+loso,seed42,Saidpur,Tmax,33,1,26.493273308081278,2023-12-31,2000-01-01,Saidpur
+loso,seed42,Saidpur,Tmin,33,1,26.493273308081278,2023-12-31,2000-01-01,Saidpur
+loso,seed42,Satkhira,Prcp,33,1,46.624618359027714,2023-12-31,2000-01-01,Satkhira
+loso,seed42,Satkhira,Tmax,33,1,46.624618359027714,2023-12-31,2000-01-01,Satkhira
+loso,seed42,Satkhira,Tmin,33,1,46.624618359027714,2023-12-31,2000-01-01,Satkhira
+loso,seed42,Sitakunda,Prcp,33,1,31.41414367019767,2023-12-31,2000-01-01,Sitakunda
+loso,seed42,Sitakunda,Tmax,33,1,31.41414367019767,2023-12-31,2000-01-01,Sitakunda
+loso,seed42,Sitakunda,Tmin,33,1,31.41414367019767,2023-12-31,2000-01-01,Sitakunda
+loso,seed42,Srimangal,Prcp,33,1,68.41883590785584,2023-12-31,2000-01-01,Srimangal
+loso,seed42,Srimangal,Tmax,33,1,68.41883590785584,2023-12-31,2000-01-01,Srimangal
+loso,seed42,Srimangal,Tmin,33,1,68.41883590785584,2023-12-31,2000-01-01,Srimangal
+loso,seed42,Sylhet,Prcp,33,1,68.41883590785584,2023-12-31,2000-01-01,Sylhet
+loso,seed42,Sylhet,Tmax,33,1,68.41883590785584,2023-12-31,2000-01-01,Sylhet
+loso,seed42,Sylhet,Tmin,33,1,68.41883590785584,2023-12-31,2000-01-01,Sylhet
+loso,seed42,Tangail,Prcp,33,1,57.8571104850493,2023-12-31,2000-01-01,Tangail
+loso,seed42,Tangail,Tmax,33,1,57.8571104850493,2023-12-31,2000-01-01,Tangail
+loso,seed42,Tangail,Tmin,33,1,57.8571104850493,2023-12-31,2000-01-01,Tangail
+loso,seed42,Teknaf,Prcp,33,1,73.00934855474189,2023-12-31,2000-01-01,Teknaf
+loso,seed42,Teknaf,Tmax,33,1,73.00934855474189,2023-12-31,2000-01-01,Teknaf
+loso,seed42,Teknaf,Tmin,33,1,73.00934855474189,2023-12-31,2000-01-01,Teknaf
+partition,k4_s17,block_0,Prcp,23,11,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+partition,k4_s17,block_0,Tmin,23,11,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+partition,k4_s17,block_1,Prcp,28,6,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet"
+partition,k4_s17,block_1,Tmin,28,6,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet"
+partition,k4_s17,block_2,Prcp,26,8,57.8571104850493,2023-12-31,2000-01-01,"Bogra,Chuadanga,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur,Tangail"
+partition,k4_s17,block_2,Tmin,26,8,57.8571104850493,2023-12-31,2000-01-01,"Bogra,Chuadanga,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur,Tangail"
+partition,k4_s17,block_3,Prcp,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+partition,k4_s17,block_3,Tmin,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+partition,k4_s73,block_0,Prcp,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k4_s73,block_0,Tmin,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k4_s73,block_1,Prcp,22,12,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+partition,k4_s73,block_1,Tmin,22,12,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+partition,k4_s73,block_2,Prcp,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+partition,k4_s73,block_2,Tmin,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+partition,k4_s73,block_3,Prcp,27,7,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+partition,k4_s73,block_3,Tmin,27,7,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+partition,k5_s17,block_0,Prcp,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k5_s17,block_0,Tmin,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k5_s17,block_1,Prcp,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k5_s17,block_1,Tmin,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k5_s17,block_2,Prcp,28,6,57.382226135923155,2023-12-31,2000-01-01,"Chuadanga,Faridpur,Jashore,Khulna,Mongla,Satkhira"
+partition,k5_s17,block_2,Tmin,28,6,57.382226135923155,2023-12-31,2000-01-01,"Chuadanga,Faridpur,Jashore,Khulna,Mongla,Satkhira"
+partition,k5_s17,block_3,Prcp,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k5_s17,block_3,Tmin,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k5_s17,block_4,Prcp,28,6,57.382226135923155,2023-12-31,2000-01-01,"Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+partition,k5_s17,block_4,Tmin,28,6,57.382226135923155,2023-12-31,2000-01-01,"Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+partition,k6_s17,block_0,Prcp,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k6_s17,block_0,Tmin,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k6_s17,block_1,Prcp,29,5,44.399395547432434,2023-12-31,2000-01-01,"Bogra,Dinajpur,Rajshahi,Rangpur,Saidpur"
+partition,k6_s17,block_1,Tmin,29,5,44.399395547432434,2023-12-31,2000-01-01,"Bogra,Dinajpur,Rajshahi,Rangpur,Saidpur"
+partition,k6_s17,block_2,Prcp,29,5,58.27117350661008,2023-12-31,2000-01-01,"Chuadanga,Jashore,Khulna,Mongla,Satkhira"
+partition,k6_s17,block_2,Tmin,29,5,58.27117350661008,2023-12-31,2000-01-01,"Chuadanga,Jashore,Khulna,Mongla,Satkhira"
+partition,k6_s17,block_3,Prcp,32,2,111.74268699842168,2023-12-31,2000-01-01,"Srimangal,Sylhet"
+partition,k6_s17,block_3,Tmin,32,2,111.74268699842168,2023-12-31,2000-01-01,"Srimangal,Sylhet"
+partition,k6_s17,block_4,Prcp,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k6_s17,block_4,Tmin,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k6_s17,block_5,Prcp,28,6,44.399395547432434,2023-12-31,2000-01-01,"Dhaka,Faridpur,Gazipur,Ishurdi,Mymensingh,Tangail"
+partition,k6_s17,block_5,Tmin,28,6,44.399395547432434,2023-12-31,2000-01-01,"Dhaka,Faridpur,Gazipur,Ishurdi,Mymensingh,Tangail"
+partition,k6_s73,block_0,Prcp,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k6_s73,block_0,Tmin,28,6,52.93124071141321,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Rangamati,Sitakunda,Teknaf"
+partition,k6_s73,block_1,Prcp,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k6_s73,block_1,Tmin,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+partition,k6_s73,block_2,Prcp,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k6_s73,block_2,Tmin,24,10,52.93124071141321,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Comilla,Feni,Hatiya,Khepupara,Madaripur,Maijdee Court,Patuakhali"
+partition,k6_s73,block_3,Prcp,32,2,111.74268699842168,2023-12-31,2000-01-01,"Srimangal,Sylhet"
+partition,k6_s73,block_3,Tmin,32,2,111.74268699842168,2023-12-31,2000-01-01,"Srimangal,Sylhet"
+partition,k6_s73,block_4,Prcp,29,5,59.68393007967964,2023-12-31,2000-01-01,"Dhaka,Faridpur,Gazipur,Mymensingh,Tangail"
+partition,k6_s73,block_4,Tmin,29,5,59.68393007967964,2023-12-31,2000-01-01,"Dhaka,Faridpur,Gazipur,Mymensingh,Tangail"
+partition,k6_s73,block_5,Prcp,29,5,58.27117350661008,2023-12-31,2000-01-01,"Chuadanga,Jashore,Khulna,Mongla,Satkhira"
+partition,k6_s73,block_5,Tmin,29,5,58.27117350661008,2023-12-31,2000-01-01,"Chuadanga,Jashore,Khulna,Mongla,Satkhira"
+spatial_block,seed42,block_0,Prcp,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatial_block,seed42,block_0,Tmax,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatial_block,seed42,block_0,Tmin,28,6,58.27117350661008,2023-12-31,2000-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatial_block,seed42,block_1,Prcp,22,12,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatial_block,seed42,block_1,Tmax,22,12,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatial_block,seed42,block_1,Tmin,22,12,50.743599953723724,2023-12-31,2000-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatial_block,seed42,block_2,Prcp,27,7,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatial_block,seed42,block_2,Tmax,27,7,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatial_block,seed42,block_2,Tmin,27,7,50.79051160519402,2023-12-31,2000-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatial_block,seed42,block_3,Prcp,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+spatial_block,seed42,block_3,Tmax,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+spatial_block,seed42,block_3,Tmin,25,9,50.743599953723724,2023-12-31,2000-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+spatiotemporal,seed42,block_0,Prcp,28,6,58.27117350661008,2015-12-31,2016-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatiotemporal,seed42,block_0,Tmax,28,6,58.27117350661008,2015-12-31,2016-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatiotemporal,seed42,block_0,Tmin,28,6,58.27117350661008,2015-12-31,2016-01-01,"Bogra,Dinajpur,Ishurdi,Rajshahi,Rangpur,Saidpur"
+spatiotemporal,seed42,block_1,Prcp,22,12,50.743599953723724,2015-12-31,2016-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatiotemporal,seed42,block_1,Tmax,22,12,50.743599953723724,2015-12-31,2016-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatiotemporal,seed42,block_1,Tmin,22,12,50.743599953723724,2015-12-31,2016-01-01,"Barisal,Bhola,Chandpur,Chuadanga,Faridpur,Jashore,Khepupara,Khulna,Madaripur,Mongla,Patuakhali,Satkhira"
+spatiotemporal,seed42,block_2,Prcp,27,7,50.79051160519402,2015-12-31,2016-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatiotemporal,seed42,block_2,Tmax,27,7,50.79051160519402,2015-12-31,2016-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatiotemporal,seed42,block_2,Tmin,27,7,50.79051160519402,2015-12-31,2016-01-01,"Comilla,Dhaka,Gazipur,Mymensingh,Srimangal,Sylhet,Tangail"
+spatiotemporal,seed42,block_3,Prcp,25,9,50.743599953723724,2015-12-31,2016-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+spatiotemporal,seed42,block_3,Tmax,25,9,50.743599953723724,2015-12-31,2016-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+spatiotemporal,seed42,block_3,Tmin,25,9,50.743599953723724,2015-12-31,2016-01-01,"Ambagan (Ctg),Chittagong,Cox's Bazar,Feni,Hatiya,Maijdee Court,Rangamati,Sitakunda,Teknaf"
+temporal,seed42,2016_2023,Prcp,34,34,0.0,2015-12-31,2016-01-01,"Ambagan (Ctg),Barisal,Bhola,Bogra,Chandpur,Chittagong,Chuadanga,Comilla,Cox's Bazar,Dhaka,Dinajpur,Faridpur,Feni,Gazipur,Hatiya,Ishurdi,Jashore,Khepupara,Khulna,Madaripur,Maijdee Court,Mongla,Mymensingh,Patuakhali,Rajshahi,Rangamati,Rangpur,Saidpur,Satkhira,Sitakunda,Srimangal,Sylhet,Tangail,Teknaf"
+temporal,seed42,2016_2023,Tmax,34,34,0.0,2015-12-31,2016-01-01,"Ambagan (Ctg),Barisal,Bhola,Bogra,Chandpur,Chittagong,Chuadanga,Comilla,Cox's Bazar,Dhaka,Dinajpur,Faridpur,Feni,Gazipur,Hatiya,Ishurdi,Jashore,Khepupara,Khulna,Madaripur,Maijdee Court,Mongla,Mymensingh,Patuakhali,Rajshahi,Rangamati,Rangpur,Saidpur,Satkhira,Sitakunda,Srimangal,Sylhet,Tangail,Teknaf"
+temporal,seed42,2016_2023,Tmin,34,34,0.0,2015-12-31,2016-01-01,"Ambagan (Ctg),Barisal,Bhola,Bogra,Chandpur,Chittagong,Chuadanga,Comilla,Cox's Bazar,Dhaka,Dinajpur,Faridpur,Feni,Gazipur,Hatiya,Ishurdi,Jashore,Khepupara,Khulna,Madaripur,Maijdee Court,Mongla,Mymensingh,Patuakhali,Rajshahi,Rangamati,Rangpur,Saidpur,Satkhira,Sitakunda,Srimangal,Sylhet,Tangail,Teknaf"

@@ -1,0 +1,8 @@
+bulletin_date,station_name,official_rainfall_mm,bmd_date_same_mm,bmd_date_previous_mm,matches_bulletin_date,matches_previous_date,source_url,source_note
+2019-05-11,Mymensingh,8,8.0,31.0,True,False,https://mdass.bmd.gov.bd/file/2019/05/11/pdf/77147.pdf,BMD 06AM 24hr bulletin page 1
+2021-05-20,Sylhet,14,20.0,14.0,False,True,https://www.bmd.gov.bd/file/2021/05/20/pdf/114052.pdf,BMD 06AM 24hr bulletin page 1
+2021-05-20,Chandpur,2,0.0,2.0,False,True,https://www.bmd.gov.bd/file/2021/05/20/pdf/114052.pdf,BMD 06AM 24hr bulletin page 1
+2021-05-20,Hatiya,2,0.0,2.0,False,True,https://www.bmd.gov.bd/file/2021/05/20/pdf/114052.pdf,BMD 06AM 24hr bulletin page 1
+2023-09-06,Rajshahi,18,6.0,18.0,False,True,https://www.bamis.gov.bd/res/public/weather_table/pdf/2023-09-06.pdf,BMD 06AM 24hr bulletin page 2
+2023-09-06,Kutubdia,50,7.0,50.0,False,True,https://www.bamis.gov.bd/res/public/weather_table/pdf/2023-09-06.pdf,BMD 06AM 24hr bulletin page 2
+2023-09-06,Faridpur,8,1.0,8.0,False,True,https://www.bamis.gov.bd/res/public/weather_table/pdf/2023-09-06.pdf,BMD 06AM 24hr bulletin page 2

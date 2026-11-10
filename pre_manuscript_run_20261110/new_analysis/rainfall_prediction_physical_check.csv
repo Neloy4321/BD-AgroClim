@@ -1,0 +1,137 @@
+station_name,method,negative_prediction_count,nonfinite_prediction_count
+Ambagan (Ctg),RAW,0,0
+Ambagan (Ctg),MONTHLY,0,0
+Ambagan (Ctg),ET_LOCAL,0,0
+Ambagan (Ctg),ET_TERRAIN,0,0
+Barisal,RAW,0,0
+Barisal,MONTHLY,0,0
+Barisal,ET_LOCAL,0,0
+Barisal,ET_TERRAIN,0,0
+Bhola,RAW,0,0
+Bhola,MONTHLY,0,0
+Bhola,ET_LOCAL,0,0
+Bhola,ET_TERRAIN,0,0
+Bogra,RAW,0,0
+Bogra,MONTHLY,0,0
+Bogra,ET_LOCAL,0,0
+Bogra,ET_TERRAIN,0,0
+Chandpur,RAW,0,0
+Chandpur,MONTHLY,0,0
+Chandpur,ET_LOCAL,0,0
+Chandpur,ET_TERRAIN,0,0
+Chittagong,RAW,0,0
+Chittagong,MONTHLY,0,0
+Chittagong,ET_LOCAL,0,0
+Chittagong,ET_TERRAIN,0,0
+Chuadanga,RAW,0,0
+Chuadanga,MONTHLY,0,0
+Chuadanga,ET_LOCAL,0,0
+Chuadanga,ET_TERRAIN,0,0
+Comilla,RAW,0,0
+Comilla,MONTHLY,0,0
+Comilla,ET_LOCAL,0,0
+Comilla,ET_TERRAIN,0,0
+Cox's Bazar,RAW,0,0
+Cox's Bazar,MONTHLY,0,0
+Cox's Bazar,ET_LOCAL,0,0
+Cox's Bazar,ET_TERRAIN,0,0
+Dhaka,RAW,0,0
+Dhaka,MONTHLY,0,0
+Dhaka,ET_LOCAL,0,0
+Dhaka,ET_TERRAIN,0,0
+Dinajpur,RAW,0,0
+Dinajpur,MONTHLY,0,0
+Dinajpur,ET_LOCAL,0,0
+Dinajpur,ET_TERRAIN,0,0
+Faridpur,RAW,0,0
+Faridpur,MONTHLY,0,0
+Faridpur,ET_LOCAL,0,0
+Faridpur,ET_TERRAIN,0,0
+Feni,RAW,0,0
+Feni,MONTHLY,0,0
+Feni,ET_LOCAL,0,0
+Feni,ET_TERRAIN,0,0
+Gazipur,RAW,0,0
+Gazipur,MONTHLY,0,0
+Gazipur,ET_LOCAL,0,0
+Gazipur,ET_TERRAIN,0,0
+Hatiya,RAW,0,0
+Hatiya,MONTHLY,0,0
+Hatiya,ET_LOCAL,0,0
+Hatiya,ET_TERRAIN,0,0
+Ishurdi,RAW,0,0
+Ishurdi,MONTHLY,0,0
+Ishurdi,ET_LOCAL,0,0
+Ishurdi,ET_TERRAIN,0,0
+Jashore,RAW,0,0
+Jashore,MONTHLY,0,0
+Jashore,ET_LOCAL,0,0
+Jashore,ET_TERRAIN,0,0
+Khepupara,RAW,0,0
+Khepupara,MONTHLY,0,0
+Khepupara,ET_LOCAL,0,0
+Khepupara,ET_TERRAIN,0,0
+Khulna,RAW,0,0
+Khulna,MONTHLY,0,0
+Khulna,ET_LOCAL,0,0
+Khulna,ET_TERRAIN,0,0
+Madaripur,RAW,0,0
+Madaripur,MONTHLY,0,0
+Madaripur,ET_LOCAL,0,0
+Madaripur,ET_TERRAIN,0,0
+Maijdee Court,RAW,0,0
+Maijdee Court,MONTHLY,0,0
+Maijdee Court,ET_LOCAL,0,0
+Maijdee Court,ET_TERRAIN,0,0
+Mongla,RAW,0,0
+Mongla,MONTHLY,0,0
+Mongla,ET_LOCAL,0,0
+Mongla,ET_TERRAIN,0,0
+Mymensingh,RAW,0,0
+Mymensingh,MONTHLY,0,0
+Mymensingh,ET_LOCAL,0,0
+Mymensingh,ET_TERRAIN,0,0
+Patuakhali,RAW,0,0
+Patuakhali,MONTHLY,0,0
+Patuakhali,ET_LOCAL,0,0
+Patuakhali,ET_TERRAIN,0,0
+Rajshahi,RAW,0,0
+Rajshahi,MONTHLY,0,0
+Rajshahi,ET_LOCAL,0,0
+Rajshahi,ET_TERRAIN,0,0
+Rangamati,RAW,0,0
+Rangamati,MONTHLY,0,0
+Rangamati,ET_LOCAL,0,0
+Rangamati,ET_TERRAIN,0,0
+Rangpur,RAW,0,0
+Rangpur,MONTHLY,0,0
+Rangpur,ET_LOCAL,0,0
+Rangpur,ET_TERRAIN,0,0
+Saidpur,RAW,0,0
+Saidpur,MONTHLY,0,0
+Saidpur,ET_LOCAL,0,0
+Saidpur,ET_TERRAIN,0,0
+Satkhira,RAW,0,0
+Satkhira,MONTHLY,0,0
+Satkhira,ET_LOCAL,0,0
+Satkhira,ET_TERRAIN,0,0
+Sitakunda,RAW,0,0
+Sitakunda,MONTHLY,0,0
+Sitakunda,ET_LOCAL,0,0
+Sitakunda,ET_TERRAIN,0,0
+Srimangal,RAW,0,0
+Srimangal,MONTHLY,0,0
+Srimangal,ET_LOCAL,0,0
+Srimangal,ET_TERRAIN,0,0
+Sylhet,RAW,0,0
+Sylhet,MONTHLY,0,0
+Sylhet,ET_LOCAL,0,0
+Sylhet,ET_TERRAIN,0,0
+Tangail,RAW,0,0
+Tangail,MONTHLY,0,0
+Tangail,ET_LOCAL,0,0
+Tangail,ET_TERRAIN,0,0
+Teknaf,RAW,0,0
+Teknaf,MONTHLY,0,0
+Teknaf,ET_LOCAL,0,0
+Teknaf,ET_TERRAIN,0,0

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "source_manifest": {
+    "bmd": {
+      "bytes": 12646973,
+      "sha256": "1107e0de132e21553a4195e88e44bfce34ef87570c941ee01ae3470449e74c9b"
+    },
+    "era": {
+      "bytes": 129041962,
+      "sha256": "68912d0df52dba346bf48c53721ca287e9aec319de624e9ff3e188e193ed178c"
+    },
+    "meta": {
+      "bytes": 2203,
+      "sha256": "c386eb69d130c85d5082a398dcd7563e8a0dcbaf1148956cd10b570e0965ba70"
+    },
+    "terrain": {
+      "bytes": 8066,
+      "sha256": "8c57265a93727af53a36e2063c68bed70c83080ae866ef5f2895d06beac0644d"
+    },
+    "power": {
+      "bytes": 69729627,
+      "sha256": "2a3d3ac93edddf83b47d0c0fe46d470a24ce089953b0313d729a83b0db374de7"
+    },
+    "legacy_skill": {
+      "bytes": 11492,
+      "sha256": "c07bda894d94488583c3b976ff0796f9af7dd2ad1f53ee3cc37016f652352d60"
+    },
+    "yield": {
+      "bytes": 406981,
+      "sha256": "0403907edcd573d6cdb4c56ceccb94fe42b3bafc09a81087330c7cfcee197245"
+    }
+  },
+  "bmd": {
+    "rows": 326861,
+    "station_count": 55,
+    "long_station_count": 36,
+    "short_station_count": 19,
+    "missing_fraction": {
+      "tmax": 0.02724093727914924,
+      "tmin": 0.0314078461486687,
+      "prcp": 0.019757633978969655
+    },
+    "flagged_values_count": 204,
+    "flagged_values_set_missing_in_clean": 204,
+    "duplicate_station_date_rows": 0,
+    "tmax_lt_tmin": 0,
+    "negative_rain": 0
+  },
+  "era": {
+    "rows": 348756,
+    "station_count": 36,
+    "source_counts": {
+      "native": 330072,
+      "focal_filled": 18684
+    },
+    "native_station_count": 34,
+    "native_missing_targets": {
+      "t2m_max": 0,
+      "t2m_min": 0,
+      "prcp": 0
+    },
+    "duplicate_station_date_rows": 0
+  },
+  "power": {
+    "rows": 1010360,
+    "grid_cells": 104,
+    "minus999_raw_sentinel_counts": {
+      "T2M": 312,
+      "T2M_MAX": 312,
+      "T2M_MIN": 312,
+      "PRECTOTCORR": 312,
+      "RH2M": 312,
+      "WS10M": 312,
+      "GWETTOP": 312
+    }
+  },
+  "merged": {
+    "rows": 348756,
+    "valid_paired_observation_era_rows": {
+      "Tmax": 309833,
+      "Tmin": 308783,
+      "Prcp": 311423
+    },
+    "trainable_native_stations": 34
+  },
+  "metadata": {
+    "coordinate_source_counts": {
+      "draft": 36
+    },
+    "coordinate_validation": "Unverified draft user metadata; do not infer authoritative coordinates."
+  },
+  "known_limits": [
+    "Daily BMD pre-QC records and complete station observing-hour conventions were not supplied.",
+    "ERA5/NASA sampling offset and field extraction provenance need independent source documentation.",
+    "This is not an independent external national station network.",
+    "BMD/public reuse licensing must be checked before publishing station observations."
+  ],
+  "checks_passed": 7,
+  "checks_total": 7
+}

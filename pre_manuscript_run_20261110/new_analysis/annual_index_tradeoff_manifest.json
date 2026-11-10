@@ -1,0 +1,65 @@
+{
+  "source": "annual_climate_index_station_year.csv; frozen LOSO predictions, no retraining",
+  "shared_station_year_support": true,
+  "unit_of_descriptive_resampling": "station; 4000 resamples",
+  "caveat": "Station bootstrap not formal external or spatially independent inference.",
+  "annual_completeness_sensitivity": "95% versus 100% in annual_indices_completeness_sensitivity.csv",
+  "focus_et_local": [
+    {
+      "index": "TXx_C",
+      "stations": 34,
+      "station_years": 797,
+      "stations_better": 32,
+      "stations_worse": 2,
+      "relative_mean_station_rmse_gain_pct": 32.8385495723713
+    },
+    {
+      "index": "TNn_C",
+      "stations": 34,
+      "station_years": 793,
+      "stations_better": 31,
+      "stations_worse": 3,
+      "relative_mean_station_rmse_gain_pct": 35.29566382329105
+    },
+    {
+      "index": "PRCPTOT_mm",
+      "stations": 34,
+      "station_years": 803,
+      "stations_better": 24,
+      "stations_worse": 10,
+      "relative_mean_station_rmse_gain_pct": 18.5361548820991
+    },
+    {
+      "index": "R10mm_days",
+      "stations": 34,
+      "station_years": 803,
+      "stations_better": 7,
+      "stations_worse": 27,
+      "relative_mean_station_rmse_gain_pct": -50.500813605518715
+    },
+    {
+      "index": "R20mm_days",
+      "stations": 34,
+      "station_years": 803,
+      "stations_better": 18,
+      "stations_worse": 16,
+      "relative_mean_station_rmse_gain_pct": 1.8650391148426266
+    },
+    {
+      "index": "Rx1day_mm",
+      "stations": 34,
+      "station_years": 803,
+      "stations_better": 1,
+      "stations_worse": 33,
+      "relative_mean_station_rmse_gain_pct": -16.817460528650265
+    },
+    {
+      "index": "Rx5day_mm",
+      "stations": 34,
+      "station_years": 803,
+      "stations_better": 19,
+      "stations_worse": 15,
+      "relative_mean_station_rmse_gain_pct": -0.07354192925372535
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "title": "Pre-manuscript scientific evidence from frozen LOSO outputs",
+  "date_BDT": "2026-11-10",
+  "result": "PASS",
+  "same_processed_dataset_preserved": true,
+  "retrained_models": false,
+  "prior_saved_training_jobs_checked": 191,
+  "original_author_loso_rmse_matches": 408,
+  "new_saved_loso_arrays_used": 102,
+  "recovered_ERA_numeric_value_comparisons": 3876190,
+  "verified_BMD_original_source": false,
+  "authenticated_station_coordinates": false,
+  "recovered_original_GEE_script": false,
+  "explicitly_excluded": [
+    "original processed BMD station daily values",
+    "precomputed `paired.pkl` with observation-level values",
+    "model checkpoints and full prediction arrays",
+    "raw NASA POWER and raw ERA station source files"
+  ],
+  "files": {
+    "pre_manuscript_run_20261110/MANUSCRIPT_TABLES_DRAFT.tex": {
+      "size_bytes": 2586,
+      "sha256": "51ce25630cb57cfeefb9e77dce7deec7b59a7a5452f17a974702f988cccfbbc6"
+    },
+    "pre_manuscript_run_20261110/PRE_MANUSCRIPT_EXECUTED_RESULTS_20261110.md": {
+      "size_bytes": 15092,
+      "sha256": "1d04089b7040843074aec8ee6de919aeab2c6606d05654fe397198b0347e4211"
+    },
+    "pre_manuscript_run_20261110/Pre_Manuscript_Reproduce_One_Click.ipynb": {
+      "size_bytes": 5267,
+      "sha256": "451d2df5a9c6294ce6575464485c751a569096f3ddb32a206c029320609b015a"
+    },
+    "pre_manuscript_run_20261110/era_source/recovered_gee_audit_summary.json": {
+      "size_bytes": 11398,
+      "sha256": "31de1a644737b2d3ecb9b10c9d2451d2555612704b6d2ad2e230dced19dcee2c"
+    },
+    "pre_manuscript_run_20261110/era_source/recovered_gee_discrepancy_first_200.csv": {
+      "size_bytes": 93,
+      "sha256": "3bb3a4e02474f88843e96176d3360be6847de4eee528884a521c09a1e5209098"
+    },
+    "pre_manuscript_run_20261110/era_source/recovered_gee_per_year.csv": {
+      "size_bytes": 2350,
+      "sha256": "f527d09540f2bb5e48a4a16bd18a659e1590fb32720193991ba8c506825744e1"
+    },
+    "pre_manuscript_run_20261110/figures/F01_validation_skill.pdf": {
+      "size_bytes": 30017,
+      "sha256": "53e1c32b0471835930d90633fccb7f4f2ab65d729b5aa293a6773cb0cf49e086"
+    },
+    "pre_manuscript_run_20261110/figures/F01_validation_skill.png": {
+      "size_bytes": 91557,
+      "sha256": "a9bb2075578bd5e20577f53b06499ed354d60f3d2508ca0d1024a6b064e28571"
+    },
+    "pre_manuscript_run_20261110/figures/F02_terrain_increment.pdf": {
+      "size_bytes": 24373,
+      "sha256": "2fac5fc3f88b1521b85db8bf95904b43ab752efe475baf0fb67ddb38b0ca6cc5"
+    },
+    "pre_manuscript_run_20261110/figures/F02_terrain_increment.png": {
+      "size_bytes": 73328,
+      "sha256": "ea66cf2d895b00aac73a29090f04191f048db3de42e4c323217807f81cfa5cb9"
+    },
+    "pre_manuscript_run_20261110/figures/F03_precipitation_events.pdf": {
+      "size_bytes": 28839,
+      "sha256": "e190722b3fbaa53d7935a29db76655646d13dfa2171091b8748f8ca94295cdc4"
+    },
+    "pre_manuscript_run_20261110/figures/F03_precipitation_events.png": {
+      "size_bytes": 168624,
+      "sha256": "d1dd27e1c32b025661a6758fef61922b96d128a567aa2289246750662e99eaa2"
+    },
+    "pre_manuscript_run_20261110/figures/F05_alternative_partitions.pdf": {
+      "size_bytes": 21786,
+      "sha256": "a5a1c2dbfd8da0b6c53274dff145d66e6793e534ae887936bad200b5d93ee4f3"
+    },
+    "pre_manuscript_run_20261110/figures/F05_alternative_partitions.png": {
+      "size_bytes": 62328,
+      "sha256": "3d2dc10eb089d61487d5b7c0e40ac6cdf99330a7b483c3cf7d93d5a7ad2a1e25"
+    },
+    "pre_manuscript_run_20261110/integrated/all_station_distance_changes.csv": {
+      "size_bytes": 27869,
+      "sha256": "3e2f221c43479479176e6897dedbb29239c5d481bfde1e1dbe2548514e2bbc78"
+    },
+    "pre_manuscript_run_20261110/integrated/buffer100_original_folds_sensitivity.csv": {
+      "size_bytes": 535,
+      "sha256": "17029741c6d8a3b2d4fb9ad88818797edb43a99512b9b4678e348270153484bd"
+    },
+    "pre_manuscript_run_20261110/integrated/coordinate_scenario_station_changes.csv": {
+      "size_bytes": 3031,
+      "sha256": "226741657d03a40a6df0c4782245b8583016a190552d8c7e1b84bb534e1a045d"
+    },
+    "pre_manuscript_run_20261110/integrated/era5_field_ranges.csv": {
+      "size_bytes": 828,
+      "sha256": "b8667a4a523e4d28fa7b81677c4a1aaf9205bce83e5732f283c32eec14b3656b"
+    },
+    "pre_manuscript_run_20261110/integrated/era5_v1_vs_v2_common_fields.csv": {
+      "size_bytes": 540,
+      "sha256": "6abde5e50c44b3ba1a7777a82f8ac08ad85ad7d17c381f71fbcd95d3e6e2261f"
+    },
+    "pre_manuscript_run_20261110/integrated/frozen_loso_rainfall_label_sensitivity.csv": {
+      "size_bytes": 35410,
+      "sha256": "d69441744a9bf7e46fa260a3a27bd0e93ee81282a634e596604bedc7b15cf9a1"
+    },
+    "pre_manuscript_run_20261110/integrated/frozen_loso_rainfall_label_summary.csv": {
+      "size_bytes": 900,
+      "sha256": "f863cbe9f8f04e78a1641ade5a0d78dd2f00c7e0225b6a9fd3365f43373fc82d"
+    },
+    "pre_manuscript_run_20261110/integrated/integrated_audit_summary.json": {
+      "size_bytes": 5182,
+      "sha256": "d217d6cdc025a734c71504823267cd21a08d8e627647594d06fe88950e343db6"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_best_lag_annual_counts.csv": {
+      "size_bytes": 353,
+      "sha256": "612056cd97bdb913a50be043f4243767189e844507cf15ed14f26237598b7cac"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_best_lag_station_year.csv": {
+      "size_bytes": 47242,
+      "sha256": "0f0137a782054b47bf8e8d50b864843a927b24ef940115beda8321500f36b146"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_best_lag_station_year.png": {
+      "size_bytes": 145021,
+      "sha256": "a61d2a070f249a5a25433731b5043efd7619f8ec2a7e0adecb3b183cf58e0aca"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_lag_by_station_period_year.csv": {
+      "size_bytes": 562250,
+      "sha256": "3b33c98ebf9f1bab357c080141f11f79e93f40aa8bea43fcfcaa0f576a1e6c55"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_lag_summary.csv": {
+      "size_bytes": 1475,
+      "sha256": "c1d75c650c4cd370e996a36c32d6911f5893f728d3696c19bfc63d6edfaf1982"
+    },
+    "pre_manuscript_run_20261110/integrated/rainfall_station_paired_delta_csi.csv": {
+      "size_bytes": 761,
+      "sha256": "0807991147568382b50969f05a5501e9b9302df6ef185f1d4f2c06bf944df897"
+    },
+    "pre_manuscript_run_20261110/new_analysis/F01_yearly_transfer_skill.png": {
+      "size_bytes": 226012,
+      "sha256": "98d613ab65fa3b3a4ca3124c1f252e71a271517e4758eaf0dba094cfc7da31fe"
+    },
+    "pre_manuscript_run_20261110/new_analysis/F02_annual_climate_indices.png": {
+      "size_bytes": 172434,
+      "sha256": "3d270fe7b9a4250b7b056c2a3e58c8506b795ecaebd2894006e2edd6f7394971"
+    },
+    "pre_manuscript_run_20261110/new_analysis/F03_event_skill_excluding_uncertain_years.png": {
+      "size_bytes": 199347,
+      "sha256": "b50875522b56486efd41575b31af52e10bcd01cd64dc7c0652e7d30871bf245b"
+    },
+    "pre_manuscript_run_20261110/new_analysis/F04_climate_index_paired_tradeoff.png": {
+      "size_bytes": 106870,
+      "sha256": "5dbc34e9c7c82fb6b77c03b4625e6eda393700bee5fb5c65dbe6eac4ce475040"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_climate_index_station_year.csv": {
+      "size_bytes": 1679335,
+      "sha256": "9e3d641bb95b27080a10900ebd944cd940e7e0a77843088d3e6fc2e084013092"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_climate_index_summary_by_year_subset.csv": {
+      "size_bytes": 6978,
+      "sha256": "bd3d5f6370edcaf9e4ae3ae523848fa37b8f7f44a627ba85c65a0f67e74fc83a"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_index_paired_station_tradeoffs.csv": {
+      "size_bytes": 8883,
+      "sha256": "914202e93a34896d30d240c0e49eb5c2317c7db0faff687a88f389c89da00cd1"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_index_station_tradeoffs.csv": {
+      "size_bytes": 246678,
+      "sha256": "a9d3aeadc0f8837cf7da2857f988a7641994ee3b199e5848c0421ae51dcc619e"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_index_tradeoff_manifest.json": {
+      "size_bytes": 1890,
+      "sha256": "e83d5987bb7bffe28058917248e440093deca059de8654b095c7c23421d443da"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_index_yearly_tradeoff.csv": {
+      "size_bytes": 101686,
+      "sha256": "95c0961ecfee4880a721da7447d6fddc369e395dccc9ba2c207a7ea069cc33f4"
+    },
+    "pre_manuscript_run_20261110/new_analysis/annual_indices_completeness_sensitivity.csv": {
+      "size_bytes": 1207,
+      "sha256": "3c02bbab38942cf885d240f29194dceddd3b46fdfa9ba596cd146ef18c941fa5"
+    },
+    "pre_manuscript_run_20261110/new_analysis/daily_model_subset_summary.csv": {
+      "size_bytes": 2866,
+      "sha256": "b5fc66734ef8d1d4ffb5006551301605502d0ed49c383612bda7d3f6731b915d"
+    },
+    "pre_manuscript_run_20261110/new_analysis/daily_paired_station_effects_by_year_subset.csv": {
+      "size_bytes": 3022,
+      "sha256": "f6fcb21f4350b0fba64fdefaf8a7a00373e1083dd40b9f37e4e68f72d80a6c4c"
+    },
+    "pre_manuscript_run_20261110/new_analysis/daily_station_year_metrics.csv": {
+      "size_bytes": 890479,
+      "sha256": "a200a9aad981d7ed69c62a275f79869daf047c91a60441bf24a46b58fad7dd69"
+    },
+    "pre_manuscript_run_20261110/new_analysis/new_analysis_manifest.json": {
+      "size_bytes": 4167,
+      "sha256": "4f4647cfd3ac13a27ca3d78b058bf312675181e6c426459f65b199154e456107"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/baseline_metrics.csv": {
+      "size_bytes": 1904,
+      "sha256": "5a91bf996a890e6e08821a2d5497a39f1eaa837bf4a17c6360f56dbb8cdbc1e5"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/baseline_rain_detection.csv": {
+      "size_bytes": 2267,
+      "sha256": "3a5149173410002e8fadf421dd530e0672bb14a6630216b7b0f426e6f7a312f0"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/baseline_station_metrics.csv": {
+      "size_bytes": 69447,
+      "sha256": "605a60accebeab4b4f727c72b38d4b55b1958bc71452fc44c7ba4c3dcb8cd10b"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/homogeneity_screen.csv": {
+      "size_bytes": 53443,
+      "sha256": "0988b75a9e1693326065a82d0c4d8783105e3c8b04c57a1d5b4c3c07043a0e18"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/monthly_valid_counts.csv": {
+      "size_bytes": 266540,
+      "sha256": "63635ac992d56f85afa54b9684749944ca811d0452f7b9e3076eae451bad4661"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/quality_audit.json": {
+      "size_bytes": 1187,
+      "sha256": "a43ffcd6c61be9d03a533256027d8f0a69010ac76ff627dc4c8d6abf797f1a78"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/station_inventory.csv": {
+      "size_bytes": 10520,
+      "sha256": "7304bccf364b4501f82f7143fd7465a61eda3bfe14c3c823a98e73a78fda507b"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/station_power_map.csv": {
+      "size_bytes": 3310,
+      "sha256": "9e078fbc4f8a4bdd5271faa6ff18289c01fc90e98f0ebadb3a7f4c3846cb2fa8"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/training_lag_sensitivity.csv": {
+      "size_bytes": 157949,
+      "sha256": "cae94ec098bef270d0edd3bab466912851d98e679f53b47226383a6e9e5fbeae"
+    },
+    "pre_manuscript_run_20261110/new_analysis/product_benchmarks/yield_audit.csv": {
+      "size_bytes": 157,
+      "sha256": "907e52eac3e7ddcce4a4330cd949e37ddfd27fe49fb87d94fff942a9dddfd0c5"
+    },
+    "pre_manuscript_run_20261110/new_analysis/rainfall_event_station_year.csv": {
+      "size_bytes": 907452,
+      "sha256": "1656031c6ee2f200bebeb380746606f7e61f770ababb941fc08935c342df4176"
+    },
+    "pre_manuscript_run_20261110/new_analysis/rainfall_event_summary_by_year_subset.csv": {
+      "size_bytes": 4708,
+      "sha256": "3da5412ddab3f1faac57afcb88a418df50524e808b7c4935e4943e3f6de46fc3"
+    },
+    "pre_manuscript_run_20261110/new_analysis/rainfall_prediction_physical_check.csv": {
+      "size_bytes": 2905,
+      "sha256": "4966d31fdbb477fb70e281713c06fc14a7383cad538dcc0ae29b5b0ae3323ebc"
+    },
+    "pre_manuscript_run_20261110/new_analysis/temperature_physical_consistency.csv": {
+      "size_bytes": 4740,
+      "sha256": "d54653614bbd73aa3fdeb23d3b2c6f2b085243a52778918bf6b3bdecb907238c"
+    },
+    "pre_manuscript_run_20261110/new_analysis/yearly_loso_model_ranking.csv": {
+      "size_bytes": 4819,
+      "sha256": "95fb9c71084a0cd6ed1b318f5499f0cbfd1e426eef86a580949e757716421b3f"
+    },
+    "pre_manuscript_run_20261110/run_remaining_analytics.py": {
+      "size_bytes": 21697,
+      "sha256": "e9ef147ef325accb23022bb79a4c34b8e29f2607cd4172348cac0d88bc1e9220"
+    },
+    "pre_manuscript_run_20261110/run_station_index_tradeoffs.py": {
+      "size_bytes": 6942,
+      "sha256": "b9d54bd089572d90031ba0f8c3423e3a92194c38cc1c745f65d2d39c5f3a20d9"
+    },
+    "pre_manuscript_run_20261110/validation/input_quality.json": {
+      "size_bytes": 2738,
+      "sha256": "920b53ddd1d6ce699f2eb9498c6e958c959ee5e748c772e8da110992c609e4ad"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/SCIENTIFIC_RESULTS.md": {
+      "size_bytes": 3506,
+      "sha256": "1c00ac0e82096fcf042a1d2818d5e99de9394c27a49cfd08cbffbbca0dee8d56"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/alternative_partition_sensitivity.csv": {
+      "size_bytes": 1331,
+      "sha256": "8f7551e0f46b05a3ae0252512c0b7802ca27b512cff7042b136bc56ec7213205"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/paired_effects.csv": {
+      "size_bytes": 8621,
+      "sha256": "5ca10a68627393896032f0ebb130a6de2181271fcd309d94651a3ff810ea43df"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/prior_vs_recomputed_loso.csv": {
+      "size_bytes": 26002,
+      "sha256": "0143895bd23a8942af00ceac20f4a81eb34c0f4ed9b51524d1095c259499d27c"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/supplementary_validation_table.tex": {
+      "size_bytes": 1672,
+      "sha256": "f3f45a579ba8db33573f8cdeb3d69d7c08466d6b9be268c1ef4812b37ced1fe8"
+    },
+    "pre_manuscript_run_20261110/validation/recomputed/verification.json": {
+      "size_bytes": 1232,
+      "sha256": "f909f8b6b32d060d2e2f101ee5d895852a83ac735a6f335a20a5544877d667c2"
+    },
+    "pre_manuscript_run_20261110/validation/source_provenance.json": {
+      "size_bytes": 1956,
+      "sha256": "e24d2bc7a4a076ba561e04a62077cae9b4e3ac2243c533951d098316797b58ee"
+    },
+    "pre_manuscript_run_20261110/validation/splits/split_geometry_coverage.csv": {
+      "size_bytes": 21856,
+      "sha256": "ccb0202c400410007937a4f92dd9868baeb8911eda563f28835b3e902beb10f4"
+    },
+    "pre_manuscript_run_20261110/validation/splits/split_geometry_verification.json": {
+      "size_bytes": 296,
+      "sha256": "3dc126384f37de6ad64904881d30cea4b519b5847dc96850bbfb84f3dcac5c71"
+    },
+    "pre_manuscript_run_20261110/verify_and_package.py": {
+      "size_bytes": 4152,
+      "sha256": "197e6085f03c92ff004d4bd34895224fb927a0a2e7ca311be44086607d5c83ac"
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "source": "Original-format station CSVs recovered from connected user's Google Drive ERA5L_BD directory",
+  "original_gee_script_and_task_ids_recovered": false,
+  "historical_station_site_geometry_proved": false,
+  "year_start": 2000,
+  "year_end": 2023,
+  "raw_csvs": 24,
+  "raw_source_rows": 315576,
+  "raw_keys_missing_from_processed": 732,
+  "processed_keys_absent_from_raw": 0,
+  "processed_matched_rows_by_source_type": {
+    "native": 298044,
+    "focal_filled": 16800
+  },
+  "negative_precipitation_sources_clipped_to_zero": 978,
+  "compared_numeric_field_units": "t C; rain mm (raw m x 1000); radiation MJ/m2; evaporation positive mm; pressure kPa; other raw units",
+  "total_field_discrepancies_above_1e_7": 0,
+  "field_comparison": {
+    "focal_filled::ssrd": {
+      "paired": 1618,
+      "close_1e_7": 1618,
+      "max_abs_error": 0.0
+    },
+    "native::aet_era5": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 1.0036416142611415e-13
+    },
+    "native::d2m": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 6.039613253960852e-14
+    },
+    "native::pet_era5": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 1.0036416142611415e-13
+    },
+    "native::prcp": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 1.1368683772161603e-13
+    },
+    "native::sp": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 2.842170943040401e-14
+    },
+    "native::ssrd": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 7.105427357601002e-15
+    },
+    "native::swvl1": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 9.71445146547012e-17
+    },
+    "native::swvl2": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 9.71445146547012e-17
+    },
+    "native::t2m_max": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 5.684341886080802e-14
+    },
+    "native::t2m_mean": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 6.394884621840902e-14
+    },
+    "native::t2m_min": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 5.684341886080802e-14
+    },
+    "native::u10": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 1.3322676295501878e-15
+    },
+    "native::v10": {
+      "paired": 298044,
+      "close_1e_7": 298044,
+      "max_abs_error": 1.7763568394002505e-15
+    }
+  },
+  "per_year": [
+    {
+      "year": 2000,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 12444,
+      "raw_keys_missing_from_processed": 732,
+      "negative_precipitation_sources_clipped_to_zero": 10,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "ff838c386f681bb9bf9e01cd37128b24377c21334b9ea008ceda53ca53484b1f"
+    },
+    {
+      "year": 2001,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 27,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "048e6d413293a463c8b8401d4a6a3a2b721750663963ebfffe92197af9fda1cc"
+    },
+    {
+      "year": 2002,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 2,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "02fe1ce152be35d2e7106f0aee02fbe8869b57a566e65ee8a5c7c09383935867"
+    },
+    {
+      "year": 2003,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 97,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "998d1ac9b5f6b17293a0838fbfecd60546b299b8935242c3fa7621fd32929ea0"
+    },
+    {
+      "year": 2004,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 13176,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 37,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "8c07dfc96ab0dbca941b319f55356f802063e43203eebe3f1f1289a33b3e0c02"
+    },
+    {
+      "year": 2005,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 57,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "672e6ef3baede65955e16442e9920537ec265ce7b9ad78bf9caa235250def7b4"
+    },
+    {
+      "year": 2006,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 43,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "3f61717834b86c3af6c0e50604532e6b62c5564c07f6ad2bd5239be82e17937e"
+    },
+    {
+      "year": 2007,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 29,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "03f288ac0a1787d3014a422f1b40ec8ddc267eb8657096b1c20bf88425a80d01"
+    },
+    {
+      "year": 2008,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 13176,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 1,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "ea019c66aa265d8283e958aa74f1393e5b97552f1675eb766d8520a58062359c"
+    },
+    {
+      "year": 2009,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 19,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "018f94cc20b53e259e07f9a64c609eb331416102fb57e89d546f6ec5ed996ac3"
+    },
+    {
+      "year": 2010,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 20,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "3ca53a205ad585aadd0831e2234f9fff43aeabf4c5ccc8c4145839f024a1f966"
+    },
+    {
+      "year": 2011,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 4,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "a9985cd7d57c1cfe909a6c0f1abc60ae10ecb8372f489748cc736d74114b5754"
+    },
+    {
+      "year": 2012,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 13176,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 30,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "c4a77cb54263c56f1d3cd064d7d711664218bd35da7c44908a9521f592f21155"
+    },
+    {
+      "year": 2013,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 4,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "31a02a06c983e1830f4582e3ef522a2d0b6319144dca6520d72b0724305d6027"
+    },
+    {
+      "year": 2014,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 113,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "aba5e74a31f7109078dbbf765b5fff53a685159354767a1a0b84134533779089"
+    },
+    {
+      "year": 2015,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 65,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "dd3c6e83f1096b3c553a0ffa64e1d66b3ab07c0c988824a153923868bef31325"
+    },
+    {
+      "year": 2016,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 13176,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 50,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "56c2bf7f9e0f831552ea99f0915b128f982e0a16d2f6dad271351ce7bb20bac8"
+    },
+    {
+      "year": 2017,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 38,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "64cef1a69620d03f1db85b7903a07ec250ad039dff2d4aa4c09772959c226380"
+    },
+    {
+      "year": 2018,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 4,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "76f26cb9c2d985871c9a0edd65d89d6764a2ec76500ae6ba880b5d43961f8c92"
+    },
+    {
+      "year": 2019,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 68,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "3a933d55961db222b6cd35c526bd3ebc9776385a0cd156005036579a1b41c2aa"
+    },
+    {
+      "year": 2020,
+      "raw_source_rows": 13176,
+      "matching_processed_keys": 13176,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 115,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "716d9560ff8eed60db08c40ebe76eec92812a75f668ce042a1545b5b3cde0a38"
+    },
+    {
+      "year": 2021,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 23,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "fa9ab0cadb86e70a4c9e4d26b62c594ed9345d83d038fdf5ee5f3dbecbb52f6f"
+    },
+    {
+      "year": 2022,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 69,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "eb75537a0d1ac27ae26bd29e9f0c9001f413d13a61db51cde98d43a06628f747"
+    },
+    {
+      "year": 2023,
+      "raw_source_rows": 13140,
+      "matching_processed_keys": 13140,
+      "raw_keys_missing_from_processed": 0,
+      "negative_precipitation_sources_clipped_to_zero": 53,
+      "source_to_processed_field_discrepancies": 0,
+      "original_drive_csv_sha256": "db1ae7267a6f85d485a11e7ac0dbc37a96cd0a1b70d3efd301320c9a8b096db7"
+    }
+  ],
+  "important_limitation": "This checks arithmetic and source CSV continuity, NOT BMD date observation semantics or GEE pixel geometry provenance."
+}

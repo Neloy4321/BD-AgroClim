@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.key
+*.pem
+*.pkl
+*.npz
+research_v2/input/dataset/
+research_rebuild/results/jobs/
+source_recovery_kit/drive_exports_original/
+*BMD*raw*.csv
+*paired.pkl

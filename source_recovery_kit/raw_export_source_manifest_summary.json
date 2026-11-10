@@ -1,0 +1,14 @@
+{
+  "raw_export_files": 48,
+  "files_by_group": {
+    "islands": 24,
+    "main": 24
+  },
+  "rows_by_group": {
+    "islands": 17532,
+    "main": 315576
+  },
+  "all_48_source_file_sizes_match_google_drive": true,
+  "all_48_annual_coverage_and_schema_checks_pass": true,
+  "provenance_limit": "Source-level exported CSVs recovered, but original GEE scripts/tasks/parameters and historical station metadata NOT recovered."
+}

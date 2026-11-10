@@ -1,0 +1,5 @@
+original_fold,test_names,original_eligible_train,hypothetical_eligible_train,changed_train_eligibility,removed_under_hypothetical,newly_allowed_under_hypothetical
+block_0,Bogra|Dinajpur|Ishurdi|Rajshahi|Rangpur|Saidpur,26,26,0,,
+block_1,Barisal|Bhola|Chandpur|Chuadanga|Faridpur|Jashore|Khepupara|Khulna|Madaripur|Mongla|Patuakhali|Satkhira,13,13,0,,
+block_2,Comilla|Dhaka|Gazipur|Mymensingh|Srimangal|Sylhet|Tangail,19,19,0,,
+block_3,Ambagan (Ctg)|Chittagong|Cox's Bazar|Feni|Hatiya|Maijdee Court|Rangamati|Sitakunda|Teknaf,19,19,0,,

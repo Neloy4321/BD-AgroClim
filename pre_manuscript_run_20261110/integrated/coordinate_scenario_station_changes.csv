@@ -1,0 +1,37 @@
+station_name,original_lat,original_lon,hypothetical_lat,hypothetical_lon,separation_km,status
+Ambagan (Ctg),22.36,91.79,22.35,91.81,2.3381006,matched_scenario_2026_not_validated_historical
+Barisal,22.75,90.3667,22.75,90.37,0.3383959,matched_scenario_2026_not_validated_historical
+Bhola,22.68,90.65,22.68,90.65,0,matched_scenario_2026_not_validated_historical
+Bogra,24.85,89.37,24.85,89.37,0,matched_scenario_2026_not_validated_historical
+Chandpur,23.23,90.7,23.27,90.7,4.4478032,matched_scenario_2026_not_validated_historical
+Chittagong,22.27,91.82,22.27,91.82,,unmatched_unchanged
+Chuadanga,23.65,88.82,23.65,88.82,0,matched_scenario_2026_not_validated_historical
+Comilla,23.43,91.18,23.43,91.18,0,matched_scenario_2026_not_validated_historical
+Cox's Bazar,21.45,91.97,21.45,91.97,0,matched_scenario_2026_not_validated_historical
+Dhaka,23.7667,90.3833,23.77,90.38,0.49741645,matched_scenario_2026_not_validated_historical
+Dinajpur,25.65,88.68,25.67,88.65,3.7399198,matched_scenario_2026_not_validated_historical
+Faridpur,23.6,89.85,23.6,89.85,0,matched_scenario_2026_not_validated_historical
+Feni,23.03,91.42,23.03,91.42,0,matched_scenario_2026_not_validated_historical
+Gazipur,24,90.42,24,90.42,,unmatched_unchanged
+Hatiya,22.43,91.1,22.43,91.1,0,matched_scenario_2026_not_validated_historical
+Ishurdi,24.13,89.05,24.13,89.05,0,matched_scenario_2026_not_validated_historical
+Jashore,23.18,89.17,23.18,89.17,0,matched_scenario_2026_not_validated_historical
+Khepupara,21.98,90.23,21.98,90.23,0,matched_scenario_2026_not_validated_historical
+Khulna,22.78,89.53,22.78,89.53,0,matched_scenario_2026_not_validated_historical
+Kutubdia,21.82,91.85,21.82,91.85,0,matched_scenario_2026_not_validated_historical
+Madaripur,23.17,90.2,23.17,90.18,2.044525,matched_scenario_2026_not_validated_historical
+Maijdee Court,22.87,91.1,22.87,91.1,0,matched_scenario_2026_not_validated_historical
+Mongla,22.47,89.6,22.47,89.6,0,matched_scenario_2026_not_validated_historical
+Mymensingh,24.72,90.42,24.72,90.43,1.0100541,matched_scenario_2026_not_validated_historical
+Patuakhali,22.33,90.33,22.33,90.33,0,matched_scenario_2026_not_validated_historical
+Rajshahi,24.37,88.7,24.37,88.7,0,matched_scenario_2026_not_validated_historical
+Rangamati,22.53,92.2,22.53,92.2,0,matched_scenario_2026_not_validated_historical
+Rangpur,25.73,89.23,25.73,89.23,0,matched_scenario_2026_not_validated_historical
+Saidpur,25.75,88.92,25.75,88.92,0,matched_scenario_2026_not_validated_historical
+Sandwip,22.48,91.43,22.48,91.43,0,matched_scenario_2026_not_validated_historical
+Satkhira,22.72,89.08,22.72,89.08,0,matched_scenario_2026_not_validated_historical
+Sitakunda,22.63,91.7,22.58,91.7,5.559754,matched_scenario_2026_not_validated_historical
+Srimangal,24.3,91.73,24.3,91.73,0,matched_scenario_2026_not_validated_historical
+Sylhet,24.9,91.88,24.9,91.88,0,matched_scenario_2026_not_validated_historical
+Tangail,24.25,89.92,24.25,89.93,1.0138345,matched_scenario_2026_not_validated_historical
+Teknaf,20.87,92.3,20.87,92.3,0,matched_scenario_2026_not_validated_historical

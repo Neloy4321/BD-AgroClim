@@ -1,0 +1,154 @@
+{
+  "analysis_protocol": "read-only audit_v2_2026-11-10",
+  "input_sha256": {
+    "bmd": "1107e0de132e21553a4195e88e44bfce34ef87570c941ee01ae3470449e74c9b",
+    "meta": "c386eb69d130c85d5082a398dcd7563e8a0dcbaf1148956cd10b570e0965ba70",
+    "era": "68912d0df52dba346bf48c53721ca287e9aec319de624e9ff3e188e193ed178c",
+    "era_v1": "0efe835a8939db407944bb7c0e49a10f2ee55d0aa3f07ea76ce92b6cbf8f3d90",
+    "terrain": "8c57265a93727af53a36e2063c68bed70c83080ae866ef5f2895d06beac0644d",
+    "power": "2a3d3ac93edddf83b47d0c0fe46d470a24ce089953b0313d729a83b0db374de7"
+  },
+  "previous_public_bmd_spotchecks": {
+    "total_comparisons": 393,
+    "statuses": {
+      "MATCH": 328,
+      "MISMATCH": 28,
+      "dataset_not_available": 33,
+      "official_not_available": 4
+    },
+    "variable_statuses": {
+      "prcp": {
+        "MATCH": 97,
+        "MISMATCH": 20,
+        "dataset_not_available": 13,
+        "official_not_available": 1
+      },
+      "tmax": {
+        "MATCH": 117,
+        "dataset_not_available": 10,
+        "official_not_available": 2,
+        "MISMATCH": 2
+      },
+      "tmin": {
+        "MATCH": 114,
+        "dataset_not_available": 10,
+        "MISMATCH": 6,
+        "official_not_available": 1
+      }
+    },
+    "rainfall_offset_diagnostic": {
+      "2019-12-29": {
+        "previous_date_status": {
+          "MATCH": 15,
+          "MISMATCH": 19,
+          "dataset_not_available": 9,
+          "official_not_available": 0
+        },
+        "bulletin_date_status": {
+          "MATCH": 34,
+          "MISMATCH": 0,
+          "dataset_not_available": 9,
+          "official_not_available": 0
+        }
+      },
+      "2023-09-06": {
+        "previous_date_status": {
+          "MATCH": 39,
+          "MISMATCH": 1,
+          "dataset_not_available": 3,
+          "official_not_available": 1
+        },
+        "bulletin_date_status": {
+          "MATCH": 3,
+          "MISMATCH": 38,
+          "dataset_not_available": 2,
+          "official_not_available": 1
+        }
+      },
+      "2023-12-14": {
+        "previous_date_status": {
+          "MATCH": 43,
+          "MISMATCH": 0,
+          "dataset_not_available": 1,
+          "official_not_available": 0
+        },
+        "bulletin_date_status": {
+          "MATCH": 43,
+          "MISMATCH": 0,
+          "dataset_not_available": 1,
+          "official_not_available": 0
+        }
+      }
+    },
+    "date_convention": "Official rain ends 06:00 BST; official Tmax refers to yesterday; Tmin refers to today. Date assignment in derived cleaned rain CSV varies against checked bulletins. No universal correction inferred."
+  },
+  "rainfall": {
+    "station_count": 34,
+    "yearly_group_count": 810,
+    "same_support_full_rows": 295007,
+    "station_best_lag_1mm_csi_counts": {
+      "-1": 33,
+      "0": 1
+    }
+  },
+  "coordinate": {
+    "native_stations": 34,
+    "matched_hypothetical_positions": 34,
+    "station_pairs": 561,
+    "buffer100_crossing_pairs": 1,
+    "pairs_changed_block_membership": 18,
+    "adjusted_rand_index": 0.9126531035914469,
+    "changed_nearest_station_count": 1,
+    "buffer100_eligibility_changed_in_original_4_folds": 0,
+    "coordinate_scenario": "2026 BAMIS public positions substituted hypothetically; DOES NOT authenticate 2000-2023 sites or re-extract pixel features"
+  },
+  "era5_feature": {
+    "ws10_vector_max_abs_diff": 3.552713678800501e-15,
+    "ws10_vector_median_abs_diff": 0.0,
+    "ws2_over_ws10_median": 0.7479510751679441,
+    "relative_humidity_formula_median_abs_diff_pct": 2.8866260935530974,
+    "vpd_es_minus_ea_median_abs_diff_kpa": 0.0,
+    "tmin_above_tmax_count": 0,
+    "tmean_outside_daily_min_max_count": 0,
+    "negative_precipitation_count": 0,
+    "negative_ERA5_solar_radiation_count": 0,
+    "rh_outside_0_100_count": 0,
+    "duplicate_station_date_count": 0,
+    "all_era_rows": 348756,
+    "era_v1_rows": 349488,
+    "common_keys_v1_v2": 348756,
+    "v1_only_rows_not_in_v2": 732,
+    "v1_only_station_counts": {
+      "Kutubdia": 366,
+      "Sandwip": 366
+    },
+    "v1_only_date_range": [
+      "2000-01-01",
+      "2000-12-31"
+    ],
+    "era5_source_counts": {
+      "native": 330072,
+      "focal_filled": 18684
+    },
+    "station_count": 36,
+    "first_date": "2000-01-01",
+    "last_date": "2026-07-30",
+    "unknowns": [
+      "Original Earth Engine image collection and export task logs not present",
+      "No authoritative pixel coordinates, reducer/scale metadata, original time/accumulation conversion code",
+      "Local arithmetic consistency cannot certify original source collection"
+    ]
+  },
+  "frozen_loso": {
+    "folds_checked": 34,
+    "minimum_raw_prediction_era_match_fraction": 1.0,
+    "saved_models_retrained": false,
+    "interpretation": "Out-of-fold predictions were frozen; scores under hypothetical changed labels are NOT retrained correction results."
+  },
+  "unresolved_provenance": [
+    "Original BMD historical record/rights and extraction logic unavailable",
+    "ERA5-Land original Earth Engine export/task script unavailable",
+    "2026 BAMIS coordinates not proven as 2000--2023 station positions",
+    "No verified corrected rainfall date labels; no correction model retrained"
+  ]
+}

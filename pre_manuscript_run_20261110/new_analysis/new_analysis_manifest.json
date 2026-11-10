@@ -1,0 +1,123 @@
+{
+  "date_BDT": "2026-11-10",
+  "nature": "frozen out-of-fold analytics; NO new model fitting",
+  "source_sha256": {
+    "bmd": "1107e0de132e21553a4195e88e44bfce34ef87570c941ee01ae3470449e74c9b",
+    "era": "68912d0df52dba346bf48c53721ca287e9aec319de624e9ff3e188e193ed178c",
+    "meta": "c386eb69d130c85d5082a398dcd7563e8a0dcbaf1148956cd10b570e0965ba70",
+    "terrain": "8c57265a93727af53a36e2063c68bed70c83080ae866ef5f2895d06beac0644d",
+    "power": "2a3d3ac93edddf83b47d0c0fe46d470a24ce089953b0313d729a83b0db374de7",
+    "legacy_skill": "c07bda894d94488583c3b976ff0796f9af7dd2ad1f53ee3cc37016f652352d60",
+    "yield": "0403907edcd573d6cdb4c56ceccb94fe42b3bafc09a81087330c7cfcee197245"
+  },
+  "saved_loso_files_verified": 102,
+  "output_series": {
+    "station_year_daily_metrics": 9708,
+    "index_station_year_rows": 22420,
+    "event_station_year_rows": 12960,
+    "all_rainfall_predictions_negative": 0,
+    "temperature_physical_violations": 4
+  },
+  "tmax_loso_original": {
+    "raw": 2.229265203007318,
+    "et_local": 1.3168925240313114,
+    "et_terrain": 1.3775284932014358
+  },
+  "rainfall_loso_non_suspect_years": {
+    "raw": 16.90301327396707,
+    "et_local": 15.371765119995038
+  },
+  "rainfall_50mm_CSI": {
+    "all_processed_years": {
+      "RAW": 0.10164388020833333,
+      "ET_LOCAL": 0.12166768639104973,
+      "ET_TERRAIN": 0.11752830685508646
+    },
+    "excluding_2021_2023": {
+      "RAW": 0.099929996499825,
+      "ET_LOCAL": 0.12120927612430758,
+      "ET_TERRAIN": 0.11657078185419222
+    },
+    "excluding_2019_2021_2023": {
+      "RAW": 0.1002367079388201,
+      "ET_LOCAL": 0.12027357107962873,
+      "ET_TERRAIN": 0.1161397997251129
+    }
+  },
+  "annual_indices_mean_station_rmse": {
+    "all_processed_years": {
+      "TXx_C": {
+        "RAW": 1.8154021722408784,
+        "ET_LOCAL": 1.2192504320308277,
+        "ET_TERRAIN": 1.2256546559402255
+      },
+      "TNn_C": {
+        "RAW": 2.458809830155716,
+        "ET_LOCAL": 1.590956580287318,
+        "ET_TERRAIN": 1.7734483789116395
+      },
+      "Rx1day_mm": {
+        "RAW": 92.81918211267082,
+        "ET_LOCAL": 108.42901126727044,
+        "ET_TERRAIN": 110.1740015493306
+      },
+      "Rx5day_mm": {
+        "RAW": 152.34972621051233,
+        "ET_LOCAL": 152.46176713064142,
+        "ET_TERRAIN": 154.92790231443894
+      }
+    },
+    "excluding_2021_2023": {
+      "TXx_C": {
+        "RAW": 1.8262110678973276,
+        "ET_LOCAL": 1.2056981806332723,
+        "ET_TERRAIN": 1.2135076802956386
+      },
+      "TNn_C": {
+        "RAW": 2.443725378255856,
+        "ET_LOCAL": 1.5732383036070612,
+        "ET_TERRAIN": 1.765101138318933
+      },
+      "Rx1day_mm": {
+        "RAW": 91.62008878734176,
+        "ET_LOCAL": 107.00581273294544,
+        "ET_TERRAIN": 108.51257335388188
+      },
+      "Rx5day_mm": {
+        "RAW": 151.84344504650585,
+        "ET_LOCAL": 151.35876703606232,
+        "ET_TERRAIN": 153.66132781919188
+      }
+    },
+    "excluding_2019_2021_2023": {
+      "TXx_C": {
+        "RAW": 1.83242325663822,
+        "ET_LOCAL": 1.2167263467583243,
+        "ET_TERRAIN": 1.2180946961266568
+      },
+      "TNn_C": {
+        "RAW": 2.4518645293094257,
+        "ET_LOCAL": 1.5665628670739722,
+        "ET_TERRAIN": 1.7649134061026002
+      },
+      "Rx1day_mm": {
+        "RAW": 92.52533877844752,
+        "ET_LOCAL": 107.6136352518888,
+        "ET_TERRAIN": 109.14836870427617
+      },
+      "Rx5day_mm": {
+        "RAW": 151.3002659547214,
+        "ET_LOCAL": 150.74156919229847,
+        "ET_TERRAIN": 153.10523299677473
+      }
+    }
+  },
+  "cautions": [
+    "No new refitting; all observations are existing processed author labels.",
+    "Year exclusions are predeclared source-provenance sensitivity, not proof other years are authenticated.",
+    "The 2021/2023 candidate date shifts require official source provenance before adopting in a paper.",
+    "95% calendar completeness for annual indices; method comparisons use identical observation dates.",
+    "Station bootstrap exploratory only due shared calibration folds and geographic dependence.",
+    "Historical station coordinates and source time windows have not been independently certified."
+  ]
+}

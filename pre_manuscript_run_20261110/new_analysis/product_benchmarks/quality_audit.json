@@ -1,0 +1,39 @@
+{
+  "long_stations": 36,
+  "short_stations_excluded": 19,
+  "power_cells": 104,
+  "power_lat_step": [
+    0.5
+  ],
+  "power_lon_step": [
+    0.625
+  ],
+  "power_minus999_counts": {
+    "LAT": 0,
+    "LON": 0,
+    "YEAR": 0,
+    "DOY": 0,
+    "T2M": 312,
+    "T2M_MAX": 312,
+    "T2M_MIN": 312,
+    "PRECTOTCORR": 312,
+    "RH2M": 312,
+    "WS10M": 312,
+    "GWETTOP": 312
+  },
+  "metadata_coord_source_counts": {
+    "draft": 36
+  },
+  "paired_rows": 314844,
+  "era_end": "2026-07-30",
+  "yield_rows": 2862,
+  "yield_analysis_ready_rows": 2719,
+  "unresolved": [
+    "All coordinates labelled draft; verify authoritative coordinates and extraction consistency.",
+    "BMD observing-day windows and POWER API time-standard unavailable in supplied CSVs.",
+    "Pre-QC observations and removal log unavailable; extreme-event deletion cannot be audited or reversed.",
+    "GEE terrain geometry, water-mask threshold and resampling provenance unavailable.",
+    "BMD redistribution terms and derived-data licensing must be documented before public release."
+  ],
+  "disclosure": "Islands were inspected in the earlier paper; they are spatially excluded diagnostics, not a fresh blind test."
+}
