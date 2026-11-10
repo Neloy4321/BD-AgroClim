@@ -271,6 +271,52 @@ def main():
         stations=("station", "nunique"), mean_station_annual_rmse=("annual_rmse", "mean")
     ).reset_index()
     annual_rmse_summary.to_csv(OUT / "annual_extreme_station_rmse.csv", index=False)
+    # Report station-by-station deterioration *separately* for annual-index
+    # MAE and RMSE. Means of station MAE and station RMSE answer distinct
+    # questions; an existing 2021/2023 exclusion analysis uses a different
+    # eligible-year mask, which must never be conflated with this full set.
+    station_metric_rows = []
+    for metric, frame, value, mask_name in [
+        ("MAE", per_station, "error_abs", "full_95pct_years"),
+        ("RMSE", annual_rmse_station, "annual_rmse", "full_95pct_years"),
+    ]:
+        piv = frame.pivot_table(index=["protocol", "variable", "index", "station"],
+                                columns="method", values=value).reset_index()
+        for (protocol, variable, index), group in piv.groupby(["protocol", "variable", "index"]):
+            if "ET_LOCAL" not in group or "RAW" not in group:
+                continue
+            z = group.dropna(subset=["ET_LOCAL", "RAW"])
+            station_metric_rows.append({
+                "protocol": protocol, "variable": variable, "index": index,
+                "annual_station_metric": metric, "stations": len(z),
+                "ET_LOCAL_worse_than_RAW": int((z.ET_LOCAL > z.RAW).sum()),
+                "ET_LOCAL_better_than_RAW": int((z.ET_LOCAL < z.RAW).sum()),
+                "ET_LOCAL_equal_to_RAW": int((z.ET_LOCAL == z.RAW).sum()),
+                "year_mask": mask_name,
+            })
+    # Year exclusion is strictly evaluation-only. Do not alter any originally
+    # fitted model or use the result to pick a threshold.
+    year_excluded = annual[~annual.year.isin([2021, 2023])]
+    for metric, err_col in [("MAE", "error_abs"), ("RMSE", "error_signed")]:
+        grouped = year_excluded.groupby(["protocol", "variable", "index", "station", "method"])[err_col]
+        station_stat = (grouped.apply(lambda v: float(v.mean())) if metric == "MAE" else
+                        grouped.apply(lambda v: float(np.sqrt(np.mean(v.to_numpy() ** 2)))))
+        station_stat = station_stat.reset_index(name="station_error")
+        piv = station_stat.pivot_table(index=["protocol", "variable", "index", "station"],
+                                       columns="method", values="station_error").reset_index()
+        for (protocol, variable, index), group in piv.groupby(["protocol", "variable", "index"]):
+            if "ET_LOCAL" not in group or "RAW" not in group:
+                continue
+            z = group.dropna(subset=["ET_LOCAL", "RAW"])
+            station_metric_rows.append({
+                "protocol": protocol, "variable": variable, "index": index,
+                "annual_station_metric": metric, "stations": len(z),
+                "ET_LOCAL_worse_than_RAW": int((z.ET_LOCAL > z.RAW).sum()),
+                "ET_LOCAL_better_than_RAW": int((z.ET_LOCAL < z.RAW).sum()),
+                "ET_LOCAL_equal_to_RAW": int((z.ET_LOCAL == z.RAW).sum()),
+                "year_mask": "exclude_2021_2023_eval_only",
+            })
+    pd.DataFrame(station_metric_rows).to_csv(OUT / "station_reversal_counts_by_metric.csv", index=False)
     joint = per_station.pivot_table(index=["protocol", "variable", "index", "station"],
                                    columns="method", values="error_abs").reset_index()
     daily_station = daily.pivot_table(index=["protocol", "variable", "station"],
@@ -306,25 +352,32 @@ def main():
 
     # One cross-outcome comparison figure uses the same station-weighted RMSE
     # definition for daily and annual quantities.
-    fig, ax = plt.subplots(1, 2, figsize=(10.8, 4.1))
+    fig, ax = plt.subplots(1, 2, figsize=(10.8, 4.5))
+    named = [("RAW", "Raw ERA5-Land", "#666666"),
+             ("ET_LOCAL", "Local Extra Trees", "#146d80"),
+             ("FALLBACK20", "20-mm fallback", "#b76d44"),
+             ("EPC10", "Event-preserving EPC10", "#43855b")]
     for k, protocol in enumerate(["loso", "spatial_block"]):
         dd = daily[(daily.protocol == protocol) & (daily.variable == "Prcp")].groupby("method").rmse.mean()
         ex = annual_rmse_summary[(annual_rmse_summary.protocol == protocol) &
                                  (annual_rmse_summary.variable == "Prcp") &
                                  (annual_rmse_summary["index"] == "Rx1day")].set_index("method")
-        for method, color in [("RAW", "#666666"), ("ET_LOCAL", "#146d80"),
-                              ("FALLBACK20", "#b76d44"), ("EPC10", "#43855b")]:
+        for method, name, color in named:
             xx, yy = dd.get(method), ex.mean_station_annual_rmse.get(method)
-            ax[k].scatter(xx, yy, s=65, color=color, label=method.replace("_", " "))
-            ax[k].annotate(method.replace("_", " "), (xx, yy), xytext=(5, 6),
-                           textcoords="offset points", fontsize=8)
+            ax[k].scatter(xx, yy, s=85, color=color, label=name,
+                          edgecolors="white", linewidths=.9, zorder=3)
         ax[k].set_title("Station withholding" if k == 0 else "Regional-block withholding")
         ax[k].set_xlabel("Daily precipitation RMSE (mm/day)")
         if k == 0: ax[k].set_ylabel("Mean station annual Rx1day RMSE (mm)")
         ax[k].spines[["top", "right"]].set_visible(False)
         ax[k].grid(alpha=.15)
     fig.suptitle("A constrained choice of daily skill versus annual-extreme fidelity")
-    fig.tight_layout()
+    # A shared external key avoids the overlapping point labels in the
+    # near-identical 90--93-mm extreme-error cluster of each panel.
+    handles, labels = ax[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="lower center", ncol=4,
+               frameon=False, bbox_to_anchor=(.5, .015), fontsize=9)
+    fig.tight_layout(rect=[0, .12, 1, .94])
     fig.savefig(OUT / "Fig14_constraint_pareto.png", dpi=260, bbox_inches="tight")
     fig.savefig(OUT / "Fig14_constraint_pareto.pdf", bbox_inches="tight")
     plt.close(fig)

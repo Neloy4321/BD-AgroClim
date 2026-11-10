@@ -33,6 +33,10 @@ For **every** event threshold `q >= T`, `EPC_T(r,c) >= q` if and only if `r >= q
 
 Daily and annual entries are equally weighted means of **station-specific RMSE**, not a pooled RMSE across millions of daily cases. For EPC10, the station-level raw-minus-corrected daily RMSE improvement is 0.199 mm/day (95% station-bootstrap interval 0.176–0.221) under LOSO and 0.185 (0.161–0.209) under spatial blocks; 33 of 34 stations improve in each. These are *relative-to-raw* improvements and do not show better rainfall event truth.
 
+**Important station-count distinction (corrected):** Comparing unrestricted local Extra Trees with raw ERA5-Land under LOSO, annual Rx1day error worsens at **34/34 stations by station-wise annual-index MAE**, but **33/34 stations by station-wise annual-index RMSE**. The corresponding four-region results are **33/34 (MAE)** and **34/34 (RMSE)**. These counts remain the same when 2021 and 2023 are omitted from *evaluation only*, not fitting. `outputs/station_reversal_counts_by_metric.csv` reproduces the full-versus-excluded, MAE-versus-RMSE comparisons. The daily-versus-annual bar plot uses *daily RMSE* and *annual-index MAE*, whereas the daily-versus-Rx1day Pareto scatter uses *RMSE on both axes*; they must not be conflated.
+
+**Relation to earlier work:** Quantile delta mapping preserves modeled changes in quantiles; trend-aware ISIMIP3BASD and later bias-adjustment techniques target distributional properties, long-term signals or wet-day frequency. EPC is deliberately narrower: it preserves the **same-day raw threshold event mask** at every rainfall threshold at least as high as its predetermined boundary. It does not imply superiority to those methods, any preservation of a projected climate-change signal, or improved observed-event accuracy.
+
 ### Other predeclared event thresholds
 
 `T` values of 1, 10, 20 and 50 mm were inspected without outcome-based threshold choice. The trade-off is real: preserving all raw R10mm events with EPC10 yields less daily benefit than allowing R10mm counts to change with EPC20 or EPC50. Plot `Fig15_threshold_frontier` illustrates this choice. The experimental `FALLBACK20` comparison does **not** cap subthreshold ET predictions, and thus does **not** preserve lower event thresholds.
@@ -50,6 +54,7 @@ Daily and annual entries are equally weighted means of **station-specific RMSE**
 | `outputs/annual_extreme_station_rmse.csv` | Aggregate station-weighted annual index RMSE |
 | `outputs/annual_extreme_station_mae.csv` | Annual index absolute-error sensitivity, separately defined |
 | `outputs/daily_extreme_rank_discordance.csv` | Number of station-wise ranking reversals |
+| `outputs/station_reversal_counts_by_metric.csv` | Separate station-wise annual MAE/RMSE deterioration counts, full years versus evaluation-only omission of 2021/2023 |
 | `outputs/run_provenance.json` | Analysis settings and evidence boundaries |
 | `outputs/Fig11*` to `outputs/Fig15*` | Generated plots in PDF/PNG |
 

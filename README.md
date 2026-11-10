@@ -14,12 +14,15 @@
 
 For 34 ERA5-Land-native, station-held-out sites, station-mean daily RMSE (raw ERA5-Land → locally trained Extra Trees correction) is **2.2293 → 1.3169 °C** for Tmax, **1.6040 → 1.3702 °C** for Tmin, and **16.7208 → 15.2924 mm/day** for precipitation. These comparisons reflect the author-processed dates and the original saved model folds.
 
-**Important negative results:** For precipitation, annual Rx1day index RMSE worsens from **92.819 to 108.429 mm** after correction (33 of 34 stations worse); annual R10mm count RMSE worsens from **16.733 to 25.183 days**. Ordinary wet-day (≥1 mm/day) CSI decreases from **0.565 to 0.536**. Additional static terrain information also worsens native LOSO Tmax RMSE from 1.3169 to 1.3775 °C. Full denominators, sensitivity results and limits are in [the executed results report](pre_manuscript_run_20261110/PRE_MANUSCRIPT_EXECUTED_RESULTS_20261110.md).
+**Important negative results:** For precipitation, annual Rx1day index RMSE worsens from **92.819 to 108.429 mm** after correction (33 of 34 by station-wise annual-index RMSE; 34 of 34 by station-wise annual-index MAE); annual R10mm count RMSE worsens from **16.733 to 25.183 days**. Ordinary wet-day (≥1 mm/day) CSI decreases from **0.565 to 0.536**. Additional static terrain information also worsens native LOSO Tmax RMSE from 1.3169 to 1.3775 °C. Full denominators, sensitivity results and limits are in [the executed results report](pre_manuscript_run_20261110/PRE_MANUSCRIPT_EXECUTED_RESULTS_20261110.md).
 
 ## Find the evidence
 
 | Evidence | Location |
 |---|---|
+| **11 Nov 2026 novelty extension: code, outputs and figures** | [`research_extension_20261111/README.md`](research_extension_20261111/README.md) |
+| **Rx1day MAE/RMSE station-count reconciliation** | [`research_extension_20261111/outputs/station_reversal_counts_by_metric.csv`](research_extension_20261111/outputs/station_reversal_counts_by_metric.csv) |
+| **Event-preserving method and corrected Figure 13** | [`research_extension_20261111/epc_public.py`](research_extension_20261111/epc_public.py), [`Fig14_constraint_pareto.svg`](research_extension_20261111/outputs/Fig14_constraint_pareto.svg) |
 | Full executed results and limitations | [`pre_manuscript_run_20261110/PRE_MANUSCRIPT_EXECUTED_RESULTS_20261110.md`](pre_manuscript_run_20261110/PRE_MANUSCRIPT_EXECUTED_RESULTS_20261110.md) |
 | Reproduction walkthrough (.ipynb) | [`pre_manuscript_run_20261110/Pre_Manuscript_Reproduce_One_Click.ipynb`](pre_manuscript_run_20261110/Pre_Manuscript_Reproduce_One_Click.ipynb) |
 | Original verified author method modules | [`research_rebuild/code/paper1_pipeline/`](research_rebuild/code/paper1_pipeline/) |
@@ -35,6 +38,10 @@ For 34 ERA5-Land-native, station-held-out sites, station-mean daily RMSE (raw ER
 | SHA-256 validation manifest and independent checks | [`pre_manuscript_run_20261110/PACKAGE_MANIFEST_SHA256.json`](pre_manuscript_run_20261110/PACKAGE_MANIFEST_SHA256.json), [`validation/`](pre_manuscript_run_20261110/validation/) |
 | Dataset access, rights and outstanding evidence | [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md) |
 | Exact reproduction conditions | [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) |
+
+## 11 November 2026: constrained event-preserving extension
+
+A new frozen-held-out analysis evaluates rainfall thresholds, seasonal-transfer heterogeneity and annual-index metric dependence. Under LOSO, local Extra Trees worsens Rx1day at **34/34 stations by annual-index MAE** but **33/34 by annual-index RMSE**; both metrics are explicitly separated in the extension CSV. This method does **not** improve the truth of raw rainfall extremes. Corrected Figure 13 uses a non-overlapping legend. [See the extension results, code, tables and figure gallery](research_extension_20261111/README.md). No restricted BMD rows or row-linked predictions were added.
 
 ## Verification at a glance
 
