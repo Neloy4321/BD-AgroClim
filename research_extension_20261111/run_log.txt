@@ -1,0 +1,38 @@
+Loading original processed observations and reanalysis index ...
+loso Tmax folds 34 stations 34
+loso Tmin folds 34 stations 34
+loso Prcp folds 34 stations 34
+spatial_block Tmax folds 4 stations 34
+spatial_block Tmin folds 4 stations 34
+spatial_block Prcp folds 4 stations 34
+spatiotemporal Tmax folds 4 stations 34
+spatiotemporal Tmin folds 4 stations 34
+spatiotemporal Prcp folds 4 stations 34
+Seasonal: (168, 14) Annual: (60, 6) Discordance: (36, 8)
+Rain fallback seasons:
+       protocol variable season   method  stations  mean_raw_rmse  mean_model_rmse  mean_benefit  benefit_percent  stations_improved  station_bootstrap_lo  station_bootstrap_hi  paired_wilcoxon_p_exploratory  wilcoxon_q_by_protocol_target
+          loso     Prcp    DJF ET_LOCAL        34          3.328            2.746         0.582           17.480                 33                 0.488                 0.671                          0.000                          0.000
+          loso     Prcp    DJF    EPC10        34          3.328            3.210         0.118            3.546                 33                 0.086                 0.145                          0.000                          0.000
+          loso     Prcp   JJAS ET_LOCAL        34         23.653           22.175         1.478            6.248                 34                 1.292                 1.659                          0.000                          0.000
+          loso     Prcp   JJAS    EPC10        34         23.653           23.440         0.213            0.901                 34                 0.188                 0.240                          0.000                          0.000
+          loso     Prcp    MAM ET_LOCAL        34         13.696           11.716         1.979           14.451                 34                 1.704                 2.288                          0.000                          0.000
+          loso     Prcp    MAM    EPC10        34         13.696           13.491         0.204            1.491                 33                 0.179                 0.228                          0.000                          0.000
+          loso     Prcp     ON ET_LOCAL        34         15.354           13.548         1.805           11.758                 33                 1.538                 2.036                          0.000                          0.000
+          loso     Prcp     ON    EPC10        34         15.354           15.031         0.323            2.104                 33                 0.279                 0.366                          0.000                          0.000
+ spatial_block     Prcp    DJF ET_LOCAL        34          3.328            2.775         0.553           16.605                 33                 0.466                 0.642                          0.000                          0.000
+ spatial_block     Prcp    DJF    EPC10        34          3.328            3.224         0.103            3.106                 33                 0.069                 0.130                          0.000                          0.000
+ spatial_block     Prcp   JJAS ET_LOCAL        34         23.653           22.473         1.181            4.991                 33                 0.994                 1.359                          0.000                          0.000
+ spatial_block     Prcp   JJAS    EPC10        34         23.653           23.450         0.203            0.860                 34                 0.179                 0.227                          0.000                          0.000
+ spatial_block     Prcp    MAM ET_LOCAL        34         13.696           11.879         1.817           13.264                 34                 1.525                 2.124                          0.000                          0.000
+ spatial_block     Prcp    MAM    EPC10        34         13.696           13.522         0.174            1.269                 33                 0.149                 0.198                          0.000                          0.000
+ spatial_block     Prcp     ON ET_LOCAL        34         15.354           13.717         1.637           10.661                 33                 1.393                 1.836                          0.000                          0.000
+ spatial_block     Prcp     ON    EPC10        34         15.354           15.048         0.306            1.991                 33                 0.257                 0.349                          0.000                          0.000
+spatiotemporal     Prcp    DJF ET_LOCAL        34          4.112            3.748         0.363            8.838                 28                 0.198                 0.542                          0.000                          0.000
+spatiotemporal     Prcp    DJF    EPC10        34          4.112            4.063         0.049            1.188                 27                 0.010                 0.084                          0.001                          0.001
+spatiotemporal     Prcp   JJAS ET_LOCAL        34         22.242           21.252         0.989            4.447                 32                 0.790                 1.186                          0.000                          0.000
+spatiotemporal     Prcp   JJAS    EPC10        34         22.242           22.047         0.195            0.875                 33                 0.162                 0.224                          0.000                          0.000
+spatiotemporal     Prcp    MAM ET_LOCAL        34         13.300           11.870         1.430           10.750                 34                 1.169                 1.692                          0.000                          0.000
+spatiotemporal     Prcp    MAM    EPC10        34         13.300           13.151         0.149            1.120                 32                 0.119                 0.177                          0.000                          0.000
+spatiotemporal     Prcp     ON ET_LOCAL        34         16.132           15.089         1.043            6.468                 29                 0.708                 1.384                          0.000                          0.000
+spatiotemporal     Prcp     ON    EPC10        34         16.132           15.873         0.259            1.608                 33                 0.201                 0.314                          0.000                          0.000
+PASS: frozen RAW match, disjoint train/test, unique IDs, expected saved jobs

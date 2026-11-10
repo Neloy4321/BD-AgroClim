@@ -1,0 +1,42 @@
+{
+  "source_predictions": "research_rebuild/results/jobs (private row-linked arrays)",
+  "source_observations": "Private processed BMD-derived observations; not redistributed",
+  "frozen_methods": [
+    "EPC1",
+    "EPC10",
+    "EPC20",
+    "EPC50",
+    "ET_LOCAL",
+    "ET_TERRAIN",
+    "FALLBACK20",
+    "HGB_LOCAL",
+    "HGB_TERRAIN",
+    "MONTHLY",
+    "RAW"
+  ],
+  "validation": "Each outer-test station disjoint from its fitting donors; no refitting or selection on held-out targets",
+  "station_count": {
+    "loso": 34,
+    "spatial_block": 34,
+    "spatiotemporal": 34
+  },
+  "saved_job_count": 126,
+  "years": "2000–2023 (space–time test 2016–2023)",
+  "station_weighting": "equal per station; station bootstrap (3000 samples)",
+  "annual_validity": ">=95% of calendar days with valid paired predictions per station-year",
+  "season_calendar": {
+    "DJF": "Dec-Feb",
+    "MAM": "Mar-May",
+    "JJAS": "Jun-Sep",
+    "ON": "Oct-Nov"
+  },
+  "experimental_fallback": "A-priori threshold 20 mm ERA5-Land daily precipitation; untrained, descriptive, no safety guarantee",
+  "event_preserving_rule": "EPC_T: use RAW for RAW>=T, else min(max(ET_LOCAL,0), nextafter(T,0)); exactly preserves RAW occurrence for every threshold>=T, not observed-event accuracy",
+  "a_priori_thresholds_mm": [
+    1,
+    10,
+    20,
+    50
+  ],
+  "privacy": "Exports aggregate station-level statistics without row IDs, station identifiers, original observations, coordinates, or predictions"
+}
