@@ -54,6 +54,10 @@ The independent date-label comparison uses the open secondary dataset [*High Vol
 
 **Reproducibility levels:** The included code, aggregate tables, exported audit reports and figures are openly inspectable. End-to-end retraining or recomputing every daily score requires privately held BMD-derived input observations and saved frozen predictions, which are **not public**; see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md). The original Earth Engine script was not recovered, although a clearly labelled reconstruction and source audit are supplied.
 
+## Software licence
+
+The original **author-owned software code** in this repository is made available under the [MIT License](LICENSE), with the consent of Neloy Pramanik Supto, Sajib Biswas and Sazal Das. This software licence does **not** grant rights to the privately held BMD observations, third-party datasets, third-party software or externally licensed assets. Data access and reproducibility restrictions in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) remain in force.
+
 ## Ethical use
 
 Please cite the eventual paper and this repository commit when reusing derived figures, code or aggregate tables. Do not describe these files as an official release or validation of BMD's primary archive. Do not infer, redistribute or reverse-engineer unlicensed station-day observations from the derived outputs.
