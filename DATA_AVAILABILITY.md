@@ -18,9 +18,9 @@
 ## Original data source and access
 
 - **BMD daily temperature/rainfall**: Bangladesh Meteorological Department, original access to be arranged through the agency. Formal archive-date/observation-window and 2000–2023 station-history clarification is outstanding as of 10 November 2026; a request was sent by the authors. No BMD primary observation records are implied to be public domain by the authors' access.
-- **ERA5-Land**: Copernicus Climate Change Service / ECMWF ERA5-Land reanalysis; publicly obtainable under its current provider data terms and attribution requirements. Source years 2000–2023 and source-feature audits are documented in `pre_manuscript_run_20261110/era_source/`.
-- **NASA POWER**: NASA Prediction Of Worldwide Energy Resources service; the comparative analysis specifies the exact common-row support.
-- **BMD-derived Mendeley secondary archive**: derivative observations cannot by themselves authenticate historical station-day reporting rules. Independent QC found duplicated station-year sequences for some sites/years. It is not asserted to be the original BMD archival record.
+- **ERA5-Land**: [Copernicus Climate Change Service ERA5-Land](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land); publicly obtainable under its provider data terms and attribution requirements. Source years 2000–2023 and source-feature audits are documented in `pre_manuscript_run_20261110/era_source/`.
+- **NASA POWER**: [NASA POWER daily data service](https://power.larc.nasa.gov/docs/services/api/temporal/daily/); the comparative analysis specifies the exact common-row support.
+- **BMD-derived Mendeley secondary archive**: Zubair et al. (2024), [*High Volume Real-World Weather Data*, version 1](https://data.mendeley.com/datasets/tbrhznpwg9/1), DOI [10.17632/tbrhznpwg9.1](https://doi.org/10.17632/tbrhznpwg9.1). The publisher labels it **CC BY 4.0**; obtain the original archive directly there and attribute its listed contributors. Derivative observations cannot by themselves authenticate historical station-day reporting rules. Independent QC found duplicated station-year sequences for some sites/years. It is **not** asserted to be the original unprocessed BMD archival record; the author's private 36-site BMD-derived table is a different dataset.
 
 ## Processing and evidence semantics
 
@@ -29,6 +29,7 @@
 - A station held out of model fitting within the 34-site network is **not** a completely independent national network validation.
 - Year-specific rainfall anomalies are identified as **sensitivity findings**; no code in this public release claims to have authenticated or uniformly corrected every BMD historical observation date.
 - The published metrics are computed from the *author-processed* inputs as they were available in the source runs, unless a table clearly states a filtered evaluation-only subset.
+- Rainfall date-label source comparisons across all years and targeted 2019/2021/2023 wet-day analyses are available as aggregate audit results in `rainfall_date_audit/`.
 
 ## Reviewer access
 

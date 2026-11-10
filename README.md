@@ -27,6 +27,7 @@ For 34 ERA5-Land-native, station-held-out sites, station-mean daily RMSE (raw ER
 | Verification scripts | [`research_rebuild/reporting/`](research_rebuild/reporting/) |
 | New annual/event/physical-consistency analysis scripts | [`pre_manuscript_run_20261110/run_remaining_analytics.py`](pre_manuscript_run_20261110/run_remaining_analytics.py), [`run_station_index_tradeoffs.py`](pre_manuscript_run_20261110/run_station_index_tradeoffs.py) |
 | Reanalysis-source audit scripts and publicly documented station metadata caveats | [`source_recovery_kit/`](source_recovery_kit/) |
+| Full same-day / preceding-day / following-day rainfall source comparison by station and year | [`rainfall_date_audit/`](rainfall_date_audit/) |
 | Summary tables (CSV) | [`pre_manuscript_run_20261110/new_analysis/`](pre_manuscript_run_20261110/new_analysis/) |
 | Annual/event large **derived** station-year tables | [`pre_manuscript_run_20261110/new_analysis/`](pre_manuscript_run_20261110/new_analysis/) (`.csv.gz`: decompress before use) |
 | Reviewer-ready figures (PNG and PDF) | [`pre_manuscript_run_20261110/figures/`](pre_manuscript_run_20261110/figures/), [`new_analysis/`](pre_manuscript_run_20261110/new_analysis/) |
@@ -46,6 +47,8 @@ For 34 ERA5-Land-native, station-held-out sites, station-mean daily RMSE (raw ER
 ## Critical qualifications
 
 **Rainfall dates:** Some 2021/2023 independent bulletin comparisons suggest a preceding-calendar-day mapping. That does **not** establish a universal yearly shift. Neither the original BMD historical date convention nor authenticated original BMD daily observations have been delivered by BMD. Rainfall and annual extreme indices therefore remain conditional on *author-processed* observation dates.
+
+The independent date-label comparison uses the open secondary dataset [*High Volume Real-World Weather Data* (Mendeley Data, DOI 10.17632/tbrhznpwg9.1)](https://data.mendeley.com/datasets/tbrhznpwg9/1). Its CC BY 4.0 publishing licence does not certify that all of its interpolated/processed daily values are original BMD readings. The audit reports 2019 same-date agreement of **90.22%**, while 2021 and 2023 previous-date agreement is **95.76%** and **95.07%**, respectively, before QC exclusions. Zero-rain values may inflate exact-match percentages; examine wet-day-only tables. These comparisons are **not** BMD confirmation.
 
 **Locations:** The historical positions and relocation dates of the 36 nominal BMD stations have not been certified; the author-point coordinates are draft metadata. The evaluated 34-site network does not establish generalization to a different national observing network.
 

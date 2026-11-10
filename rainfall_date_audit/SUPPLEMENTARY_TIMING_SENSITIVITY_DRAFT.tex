@@ -1,0 +1,67 @@
+% DRAFT ONLY. Verify consistency with journal manuscript's methodology,
+% citation keys, source attribution, and actual original study wording.
+% The analysis explicitly does not authenticate BMD observational windows.
+
+\subsection{Rainfall date-label provenance sensitivity (supplementary diagnostic)}
+To characterize temporal provenance uncertainty, we compared the authors'
+processed stationwise daily precipitation labels with a separately published,
+processed BMD-derived station dataset
+(\url{https://doi.org/10.17632/tbrhznpwg9.1}) and limited available
+BAMIS archived daily reports. The public compilation is not a certified
+original BMD raw export, and may contain interpolated or otherwise processed
+values. We therefore treat agreement as evidence of a possible difference
+in calendar labels, \emph{not} verification of physical precipitation
+observation intervals.
+
+\begin{table}[t]
+\centering
+\caption{Independent processed-source exact rainfall agreement at three
+author-calendar offsets. An offset of $-1$ compares public-source date $D$
+to the authors' observation labelled $D-1$. Full 35-station numerically
+comparable samples shown; some source station-years have anomalies (see text).}
+\label{tab:supp_public_rain_timing}
+\begin{tabular}{lrrr}
+\hline
+Year & Same date ($D$) & Author $D-1$ & Comparable pairs \\
+\hline
+2019 & 90.22\% & 57.46\% & 12,775 \\
+2021 & 59.88\% & 95.76\% & 12,282 \\
+2023 & 61.27\% & 95.07\% & 12,444 \\
+\hline
+\end{tabular}
+\end{table}
+
+Source-quality diagnostics found that the public Bogra 2021 station-year
+repeated its 2020 rainfall values on 365/365 comparable dates; the public
+Teknaf 2023 station-year repeated 2022 values on 332/365 dates. These
+station-years were excluded from the sensitivity candidate and the
+corresponding three-way frozen-prediction comparison. The authors'
+Ambagan 2021 rainfall had no available numeric values for alignment.
+Across the remaining comparable station-years, author-$D-1$ agreement
+reached 96.99\% in 2021 and 95.83\% in 2023. A proposed independent
+rainfall-only date-label scenario was generated for 67 station-years,
+reassigning the author observation at $D-1$ to hypothetical target
+date $D$ without copying public-source rainfall values. This is only
+a sensitivity scenario. It left 418 candidate values missing and did not
+change the primary BMD inputs or historical predictor series.
+
+To inspect robustness using previously trained models, we scored 34 saved
+leave-one-station-out precipitation prediction folds under three observation
+sequences (original author labels, hypothetical realignment, and separately
+processed public source), using identical station/date supports for all three
+scenarios. For example, raw ERA5-Land rainfall RMSE in 2021 was 13.949\,mm
+against original labels and 15.786\,mm against the aligned candidate
+($n=11{,}095$ days); the 2023 values were 15.233 and 17.663\,mm
+($n=11{,}325$ days), respectively. This deterioration neither proves the
+original calendar labels correct nor invalidates the independent source
+comparison: existing models and contemporaneous predictor dates were
+\emph{not retrained or relabelled}. These re-scorings must not be interpreted
+as new model training or corrected-validation results.
+
+The original BMD rainfall day-reporting convention, station-specific historical
+site positions, raw-source corrections, and some third-party preprocessing
+remain unverified. The existing model-performance claims therefore remain
+conditional on the supplied processed observations, and a source-authorized
+correction would require consistently rebuilding training and validation
+folds before reporting corrected performance. No shift was selected on the
+basis of improved downstream model test scores.

@@ -1,0 +1,229 @@
+{
+  "inputs_sha256": {
+    "input/dataset/BMD data/bmd_clean_daily.csv": "1107e0de132e21553a4195e88e44bfce34ef87570c941ee01ae3470449e74c9b",
+    "input/dataset/era5land_stations_daily/era5land_stations_daily_v2.csv": "68912d0df52dba346bf48c53721ca287e9aec319de624e9ff3e188e193ed178c",
+    "outputs/Mendeley_BMD_Derived_35Stations_2023.zip": "61c0555489d83b0ed6fd84d0ba47b5d5c9d8b5583eff6227741796422cfffebc",
+    "outputs/BAMIS_Immediate_Verification/audit_results.json": "67879abb831e71f5b81ff6065e4efeb6f09ca99c6559ffa6fac036abf0aac16b"
+  },
+  "output_files_sha256": {
+    "station_year_exact_and_wetday_audit.csv": "d3de5984cb5b1128dd72d1c7a9785d1dc061500654fc8bbf94a79aa98aa86215",
+    "station_month_exact_and_wetday_audit.csv": "8ef8112dca984c9bd01f70377ac6f221120ae9e4e89ee7ed0016045600e4fbd4",
+    "mendeley_adjacent_year_repetition_scan.csv": "a1696018674ef3c81923c8f6011123a6b556b59d702e75813ac10ac3110caa52",
+    "bmd_rainfall_only_date_alignment_CANDIDATE_not_BMD_raw.csv": "0a8171b22ef873581735398799deff905f884f1098d2f9102c489281bc5e24f9",
+    "candidate_missing_date_and_null_ledger.csv": "f3b97213e062b533ad634cb77d0e6a6051346ede4774766832ef1111cd2240f4",
+    "frozen_predictions_station_year_scenarios.csv": "964f5de04d5009c323ce7b67e4cbb17d7ae9283f03cd3b3222153fd02d5bde48",
+    "frozen_predictions_pooled_scenarios.csv": "d13a28a109ed7f87a96b298d51e7e1db6fa5998dd4607da073bd5781da478a89"
+  },
+  "mendeley_rows": 543839,
+  "mendeley_noninteger_rainfall_rows": 771,
+  "mendeley_duplicate_station_dates": 0,
+  "original_author_rows": 326861,
+  "candidate_rows": 326861,
+  "added_candidate_dates": 0,
+  "date_shifted_rows": 24455,
+  "candidate_nulls_in_shifted_rows": 418,
+  "eligible_shift_station_years": 67,
+  "source_excluded": [
+    {
+      "station": "bogra",
+      "year": 2021,
+      "reason": "Mendeley Bogra-2021 duplicates Bogra-2020 365/365 days"
+    },
+    {
+      "station": "teknaf",
+      "year": 2023,
+      "reason": "Mendeley Teknaf-2023 repeats Teknaf-2022 on 332/365 days (330/334 outside July)"
+    }
+  ],
+  "scored_saved_loso_folds": 34,
+  "saved_models_retrained": false,
+  "frozen_scores_common_support": true,
+  "scenario_scope": "2019, 2021, 2023; source anomalies excluded from three-way model sensitivity",
+  "date_labels_authentication": "unverified; publisher's processed release is not original BMD metadata",
+  "official_bmd_email_status": "request sent by author, reply not yet supplied",
+  "bamis_spotcheck": {
+    "2021": {
+      "archived_dates": [
+        "2021-05-19",
+        "2021-05-20",
+        "2021-05-21"
+      ],
+      "best_shift": -1,
+      "best_shift_mismatches": [],
+      "offsets": {
+        "-2": {
+          "matched_numeric_pairs": 98,
+          "exact_pairs": 63,
+          "mae_mm": 5.15306,
+          "wet_in_either_pairs": 36,
+          "wet_exact_pairs": 1,
+          "wet_mae_mm": 14.02778
+        },
+        "-1": {
+          "matched_numeric_pairs": 98,
+          "exact_pairs": 98,
+          "mae_mm": 0.0,
+          "wet_in_either_pairs": 24,
+          "wet_exact_pairs": 24,
+          "wet_mae_mm": 0.0
+        },
+        "0": {
+          "matched_numeric_pairs": 98,
+          "exact_pairs": 60,
+          "mae_mm": 5.10204,
+          "wet_in_either_pairs": 39,
+          "wet_exact_pairs": 1,
+          "wet_mae_mm": 12.82051
+        },
+        "1": {
+          "matched_numeric_pairs": 97,
+          "exact_pairs": 54,
+          "mae_mm": 5.4433,
+          "wet_in_either_pairs": 44,
+          "wet_exact_pairs": 1,
+          "wet_mae_mm": 12.0
+        },
+        "2": {
+          "matched_numeric_pairs": 97,
+          "exact_pairs": 51,
+          "mae_mm": 6.72165,
+          "wet_in_either_pairs": 46,
+          "wet_exact_pairs": 0,
+          "wet_mae_mm": 14.17391
+        }
+      }
+    },
+    "2022": {
+      "archived_dates": [
+        "2022-07-14",
+        "2022-07-15",
+        "2022-07-16"
+      ],
+      "best_shift": 0,
+      "best_shift_mismatches": [
+        {
+          "date": "2022-07-14",
+          "station": "Satkhira",
+          "BAMIS_mm": 1.0,
+          "cleaned_mm": 0.0,
+          "difference_mm": 1.0
+        }
+      ],
+      "offsets": {
+        "-2": {
+          "matched_numeric_pairs": 76,
+          "exact_pairs": 38,
+          "mae_mm": 2.69737,
+          "wet_in_either_pairs": 38,
+          "wet_exact_pairs": 0,
+          "wet_mae_mm": 5.39474
+        },
+        "-1": {
+          "matched_numeric_pairs": 76,
+          "exact_pairs": 40,
+          "mae_mm": 2.53947,
+          "wet_in_either_pairs": 36,
+          "wet_exact_pairs": 0,
+          "wet_mae_mm": 5.36111
+        },
+        "0": {
+          "matched_numeric_pairs": 76,
+          "exact_pairs": 75,
+          "mae_mm": 0.01316,
+          "wet_in_either_pairs": 25,
+          "wet_exact_pairs": 24,
+          "wet_mae_mm": 0.04
+        },
+        "1": {
+          "matched_numeric_pairs": 76,
+          "exact_pairs": 38,
+          "mae_mm": 4.90789,
+          "wet_in_either_pairs": 41,
+          "wet_exact_pairs": 3,
+          "wet_mae_mm": 9.09756
+        },
+        "2": {
+          "matched_numeric_pairs": 76,
+          "exact_pairs": 31,
+          "mae_mm": 6.18421,
+          "wet_in_either_pairs": 45,
+          "wet_exact_pairs": 0,
+          "wet_mae_mm": 10.44444
+        }
+      }
+    },
+    "2023": {
+      "archived_dates": [
+        "2023-09-05",
+        "2023-09-06",
+        "2023-09-07"
+      ],
+      "best_shift": -1,
+      "best_shift_mismatches": [
+        {
+          "date": "2023-09-06",
+          "station": "Madaripur",
+          "BAMIS_mm": 7.0,
+          "cleaned_mm": 0.0,
+          "difference_mm": 7.0
+        },
+        {
+          "date": "2023-09-07",
+          "station": "Chuadanga",
+          "BAMIS_mm": 2.0,
+          "cleaned_mm": 0.0,
+          "difference_mm": 2.0
+        },
+        {
+          "date": "2023-09-07",
+          "station": "Kumarkhali",
+          "BAMIS_mm": 10.0,
+          "cleaned_mm": 2.0,
+          "difference_mm": 8.0
+        }
+      ],
+      "offsets": {
+        "-2": {
+          "matched_numeric_pairs": 108,
+          "exact_pairs": 28,
+          "mae_mm": 8.46296,
+          "wet_in_either_pairs": 80,
+          "wet_exact_pairs": 0,
+          "wet_mae_mm": 11.425
+        },
+        "-1": {
+          "matched_numeric_pairs": 106,
+          "exact_pairs": 103,
+          "mae_mm": 0.16038,
+          "wet_in_either_pairs": 60,
+          "wet_exact_pairs": 57,
+          "wet_mae_mm": 0.28333
+        },
+        "0": {
+          "matched_numeric_pairs": 103,
+          "exact_pairs": 19,
+          "mae_mm": 10.95146,
+          "wet_in_either_pairs": 85,
+          "wet_exact_pairs": 1,
+          "wet_mae_mm": 13.27059
+        },
+        "1": {
+          "matched_numeric_pairs": 105,
+          "exact_pairs": 11,
+          "mae_mm": 15.06667,
+          "wet_in_either_pairs": 99,
+          "wet_exact_pairs": 5,
+          "wet_mae_mm": 15.9798
+        },
+        "2": {
+          "matched_numeric_pairs": 105,
+          "exact_pairs": 12,
+          "mae_mm": 14.32381,
+          "wet_in_either_pairs": 96,
+          "wet_exact_pairs": 3,
+          "wet_mae_mm": 15.66667
+        }
+      }
+    }
+  }
+}
